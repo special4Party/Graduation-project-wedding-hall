@@ -1,0 +1,27 @@
+
+/* Start main rules */
+body{
+background-color: antiquewhite;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/* End main rules */
+/* ----------------------------------------- */
+/* Start header */
+.header .navbar{
+background-color: rgb(218, 200, 144);
+color: rgb(5, 83, 28);
+}
+
+.header .navbar ul{
+list-style: none;
+padding-left: 0px;
+}
+
+.header .navbar ul li{
+    float: left;
+    padding: 10 px;
+}
+/* End header */

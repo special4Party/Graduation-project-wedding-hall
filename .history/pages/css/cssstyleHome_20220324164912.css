@@ -1,0 +1,64 @@
+
+/* Start main rules */
+body{
+background-color:white;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/* End main rules */
+/* ----------------------------------------- */
+/* Start header */
+.header .slider{
+/*background-color: rgb(228, 177, 215); */
+height: 450px;
+}
+
+.header .navbar{
+background-color: rgb(218, 200, 144);
+color: rgb(37, 175, 60);
+overflow: hidden;
+}
+
+.header .navbar h2{
+    float: left;
+    text-transform: uppercase;
+}
+
+.header .navbar h2 span{
+float: left;
+color: rgb(214, 75, 156);
+}
+
+.header .navbar ul{
+list-style: none;
+padding-left: 0px;
+overflow: hidden;
+float: right;
+}
+
+.header .navbar ul li {
+    float: right;
+    padding: 10px;
+    text-transform: uppercase;
+}
+/* End header */
+/* ----------------------------------------- */
+/* start features */
+.features{
+overflow: hidden;
+}
+.features .feat{
+    float: left;
+}
+
+/* End features */
+
+
+
+
+
+
+
+

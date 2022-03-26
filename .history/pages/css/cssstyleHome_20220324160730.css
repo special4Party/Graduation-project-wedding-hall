@@ -1,0 +1,17 @@
+
+/* Start main rules */
+body{
+background-color: antiquewhite;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/* End main rules */
+/* ----------------------------------------- */
+/* Start header */
+.header .navbar{
+background-color: rgba(235, 202, 114, 0.548);
+color: rgb(5, 83, 28);
+}
+/* End header */
