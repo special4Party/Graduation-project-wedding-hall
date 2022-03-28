@@ -25,7 +25,7 @@ background-color:white;
     -o-background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color:rgb(168, 16, 105);
+    color:rgb(214, 75, 156);
 }
 
 .header .slider .intro {
@@ -44,13 +44,12 @@ background-color:white;
     font-weight: bold;
 }
 .header .slider .intro button:hover{
-    background-color: rgb(173, 213, 236);
-    font-size: 20px;
+    background-color: rgb(224, 194, 228);
 }
 
 .header .slider .intro h2{
     margin: 0px auto;
-    font-size: 45px;
+    font-size: 40px;
     width: 200px;
     border-top: 4px solid rgb(32, 136, 206);
     border-bottom: 4px solid rgb(32, 136, 206);

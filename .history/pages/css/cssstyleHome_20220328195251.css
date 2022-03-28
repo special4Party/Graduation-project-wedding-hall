@@ -18,19 +18,20 @@ background-color:white;
 .header .slider{
 /*background-color: rgb(228, 177, 215); */
     height: 550px;
-    background-image: url("../../images/6.jpg");
+    background-image: url("../../images/15.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color:rgb(168, 16, 105);
+    color:rgb(214, 75, 156);
 }
 
 .header .slider .intro {
   height: 500px;
-  padding: 250px;
+  padding-top: 100px;
+  padding-right:600px;
   text-align: center;
 
 }
@@ -43,15 +44,11 @@ background-color:white;
     border: 2px solid rgb(32, 136, 206);
     font-weight: bold;
 }
-.header .slider .intro button:hover{
-    background-color: rgb(173, 213, 236);
-    font-size: 20px;
-}
 
 .header .slider .intro h2{
     margin: 0px auto;
-    font-size: 45px;
-    width: 200px;
+    font-size: 50px;
+    width: 500px;
     border-top: 4px solid rgb(32, 136, 206);
     border-bottom: 4px solid rgb(32, 136, 206);
     padding: 5px 0px;
