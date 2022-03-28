@@ -17,45 +17,12 @@ background-color:white;
 /* Start header */
 .header .slider{
 /*background-color: rgb(228, 177, 215); */
-    height: 550px;
-    background-image: url("../../images/4.jpg");
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color:rgb(214, 75, 156);
-}
-
-.header .slider .intro {
-  height: 500px;
-  padding: 250px;
-  text-align: center;
-
-}
-
-.header .slider .intro button{
-    background: none;
-    padding: 10px 20px;
-    margin-top: 40px;
-    font-size: 17px;
-    border: 2px solid rgb(32, 136, 206);
-    font-weight: bold;
-}
-
-.header .slider .intro h2{
-    margin: 0px auto;
-    font-size: 50px;
-    width: 500px;
-    border-top: 4px solid rgb(32, 136, 206);
-    border-bottom: 4px solid rgb(32, 136, 206);
-    padding: 5px 0px;
+height: 450px;
 }
 
 .header .navbar{
-background-color: rgb(56, 53, 45);
-color: rgb(32, 136, 206);
+background-color: rgb(218, 200, 144);
+color: rgb(37, 175, 60);
 overflow: hidden;
 }
 
@@ -67,7 +34,6 @@ overflow: hidden;
 .header .navbar h2 span{
 float: left;
 color: rgb(214, 75, 156);
-font-size: 40px;
 }
 
 .header .navbar ul{
@@ -81,45 +47,24 @@ float: right;
     float: right;
     padding: 10px;
     text-transform: uppercase;
-
-}
-
-.header .navbar ul li a {
-color: white;
-text-decoration: none;
-}
-
-.header .navbar ul li.active a,
-.header .navbar ul li a:hover {
-    color: rgb(32, 136, 206);
 }
 /* End header */
 /* ----------------------------------------- */
 /* start features */
 .features{
 overflow: hidden;
-padding-top: 50px;
-padding-bottom: 50px;
+padding-top: 30px;
+padding-bottom: 30px;
 }
 .features .feat{
     float: left;
     width: 33.3333%;
     height: 150px;
-   /*
-    background-color: rgb(185, 93, 93); 
-   */
+    background-color: rgb(185, 93, 93);
 }
 
 .features .feat h2{
     text-transform: uppercase;
-    color: #555;
-   
-}
-.features .feat p{
-    line-height: 1.3;
-    color: rgb(46, 99, 148);
-    text-align:left;
-    padding: 0px 30px 0px 0px;
 }
 /* End features */
 /*-----------------------------------------*/
@@ -131,7 +76,6 @@ padding-bottom: 50px;
 
 .about-us .image{
     float: left;
-    margin-top: 5%;
     width: 40%;
 }
 
@@ -206,14 +150,6 @@ padding-bottom: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
-.my-education .work,
-.my-education .expe{
-    width: 50%;
-    float: left;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 /* End educatiom*/
 /* ------------------------------------------------*/
 /* start test-imonias*/
@@ -229,7 +165,6 @@ padding-bottom: 30px;
 .portfulio{
     padding-top: 30px;
     padding-bottom: 30px;
-    text-align: center;
 }
 .portfulio .our-work{
 overflow: hidden;
@@ -241,37 +176,14 @@ width: 33.3333%;
 margin-bottom: 10px;
 }
 .portfulio .our-work > div img{
-    width: 92%;
+    width: 95%;
     margin: 10px;
 }
 /* End portfiulio*/
-/* --------------------------------------------*/
-/* start contact*/
-.contact{
-    background-color: rgb(97, 112, 107);
-    overflow: hidden;
-}
-.contact h2{
-    color: white;
-}
-.contact p{
-    color: rgb(202, 194, 194);
-}
-.contact .info-contact ,
-.contact .form {
-    width: 50%;
-    float: left;
-}
-/* End contact*/
-/* ---------------------------------------------*/
-/* start footer*/
-.footer{
-    background-color:rgb(61, 66, 65);
-    padding: 20px 0px;
-    text-align: center;
-}
 
-/* End footer*/
+
+
+
 
 
 

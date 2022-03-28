@@ -98,8 +98,8 @@ text-decoration: none;
 /* start features */
 .features{
 overflow: hidden;
-padding-top: 50px;
-padding-bottom: 50px;
+padding-top: 30px;
+padding-bottom: 30px;
 }
 .features .feat{
     float: left;
@@ -113,7 +113,7 @@ padding-bottom: 50px;
 .features .feat h2{
     text-transform: uppercase;
     color: #555;
-   
+    padding: 20px;
 }
 .features .feat p{
     line-height: 1.3;

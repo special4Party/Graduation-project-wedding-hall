@@ -98,13 +98,14 @@ text-decoration: none;
 /* start features */
 .features{
 overflow: hidden;
-padding-top: 50px;
-padding-bottom: 50px;
+padding-top: 30px;
+padding-bottom: 30px;
 }
 .features .feat{
     float: left;
     width: 33.3333%;
     height: 150px;
+    padding: 20px;
    /*
     background-color: rgb(185, 93, 93); 
    */
