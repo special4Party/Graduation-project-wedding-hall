@@ -159,15 +159,16 @@ padding-bottom: 50px;
 
 .about-us .info > p{
     margin: 0px 0px 10px 40px;
+    color: rgb(71, 64, 64);
 }
 
-.about-us .info > p:last-of-type{
+.about-us .info p:last-of-type{
  /*  هاي معناها اخر براغراف بس  من البراغرافس اللي جوا الانفو اعطيها هاي الخصائص */
     margin-top: 20px;
     color: rgb(71, 64, 64);
 }
 .about-us .info p{
-   line-height: 21.4px;
+   line-height: 0.4px;
     color: rgb(71, 64, 64);
 }
 
@@ -176,13 +177,10 @@ padding-bottom: 50px;
     margin: 40px 0px 0px 40px;
 }
 
-.about-us .info .hobbies .content{
+.about-us .info .hobbies > div{
     float: left;
     width: 50%;
     min-height: 100px;
-}
-.icons{
-
 }
 /* End about us */
 /*--------------------------------------- */

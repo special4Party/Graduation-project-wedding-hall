@@ -176,13 +176,13 @@ padding-bottom: 50px;
     margin: 40px 0px 0px 40px;
 }
 
-.about-us .info .hobbies .content{
+.about-us .info .hobbies > div{
     float: left;
     width: 50%;
     min-height: 100px;
 }
 .icons{
-
+    
 }
 /* End about us */
 /*--------------------------------------- */
