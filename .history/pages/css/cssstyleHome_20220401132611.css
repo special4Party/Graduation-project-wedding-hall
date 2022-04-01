@@ -1,0 +1,310 @@
+
+/* Start main rules */
+body{
+background-color:white;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.clearfix{
+    clear: both; /* تعالج الفلوت الخاصة باليمين واليسار */
+}
+   
+/* End main rules */
+/* ----------------------------------------- */
+/* Start header */
+.header .slider{
+/*background-color: rgb(228, 177, 215); */
+    height: 550px;
+    background-image: url("../../images/6.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:rgb(168, 16, 105);
+}
+
+.header .slider .intro {
+  height: 500px;
+  padding: 250px;
+  text-align: center;
+
+}
+
+.header .slider .intro button{
+    background: none;
+    padding: 10px 20px;
+    margin-top: 40px;
+    font-size: 17px;
+    border: 2px solid rgb(32, 136, 206);
+    font-weight: bold;
+}
+.header .slider .intro button:hover{
+    background-color: rgb(173, 213, 236);
+    font-size: 20px;
+}
+
+.header .slider .intro h2{
+    margin: 0px auto;
+    font-size: 45px;
+    width: 200px;
+    border-top: 4px solid rgb(32, 136, 206);
+    border-bottom: 4px solid rgb(32, 136, 206);
+    padding: 5px 0px;
+}
+
+.header .navbar{
+background-color: rgb(56, 53, 45);
+color: rgb(32, 136, 206);
+overflow: hidden;
+}
+
+.header .navbar h2{
+    float: left;
+    text-transform: uppercase;
+}
+
+.header .navbar h2 span{
+float: left;
+color: rgb(214, 75, 156);
+font-size: 40px;
+}
+
+.header .navbar ul{
+list-style: none;
+padding-left: 0px;
+overflow: hidden;
+float: right;
+}
+
+.header .navbar ul li {
+    float: right;
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+
+.header .navbar ul li a {
+color: white;
+text-decoration: none;
+}
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+    color: rgb(32, 136, 206);
+}
+/* End header */
+/* ----------------------------------------- */
+/* start features */
+.features{
+overflow: hidden;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.features .feat{
+    float: left;
+    width: 33.3333%;
+    height: 150px;
+   /*
+    background-color: rgb(185, 93, 93); 
+   */
+}
+
+.features .feat h2{
+    text-transform: uppercase;
+    color: #555;
+   
+}
+.features .feat p{
+    line-height: 1.3;
+    color: rgb(46, 99, 148);
+    text-align:left;
+    padding: 0px 30px 0px 0px;
+}
+/* End features */
+/*-----------------------------------------*/
+/* start about us */
+.about-us{
+    background-color: rgb(218, 200, 144);
+    overflow: hidden;
+}
+
+.about-us .image{
+    float: left;
+    margin-top: 5%;
+    width: 40%;
+}
+
+.about-us .image img{
+    width: 100%;
+}
+
+.about-us .info{
+    float:left;
+    text-align: left;
+    width: 60%;
+    
+}
+
+.about-us .info h2{
+    text-transform: uppercase;
+    margin: 40px 0px 20px 40px;
+    line-height: 1.6;
+    
+}
+
+.about-us .info > p{
+    margin: 0px 0px 10px 40px;
+}
+
+.about-us .info > p:last-of-type{
+ /*  هاي معناها اخر براغراف بس  من البراغرافس اللي جوا الانفو اعطيها هاي الخصائص */
+    margin-top: 20px;
+    color: rgb(71, 64, 64);
+}
+.about-us .info p{
+   line-height: 21.4px;
+    color: rgb(71, 64, 64);
+}
+
+.about-us .info .hobbies{
+    overflow: hidden;
+    margin: 40px 0px 0px 40px;
+}
+
+.about-us .info .hobbies .content{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+.about-us .info .hobbies .content .icons{
+    float: left;
+    width: 40px;
+}
+.about-us .info .hobbies .content .text{
+    float: left;
+}
+/* End about us */
+/*--------------------------------------- */
+/* Start skills*/
+.my-skills{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.my-skills .skills , 
+.my-skills .progress{
+width: 50%;
+float: left;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+/* End skills */
+/* ------------------------------------------ */
+/* Start resume */
+.resume{
+    background-color: rgb(155, 190, 179);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/* End resume */
+/* ---------------------------------------------------*/
+/* start education */
+.my-education{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.my-education .main,
+.my-education .expe{
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.my-education .work,
+.my-education .expe{
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* End educatiom*/
+/* ------------------------------------------------*/
+/* start test-imonias*/
+.test-imonias{
+    background-color: rgb(155, 190, 179);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* End test-imonias*/
+/* ---------------------------------------------*/
+/* start portfiulio*/
+.portfulio{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.portfulio .our-work{
+overflow: hidden;
+}
+
+.portfulio .our-work > div{  /* اشارة الاكبر معناها الديف اللي جواه فورا اول ابن له يعني */
+float: left;
+width: 33.3333%;
+margin-bottom: 10px;
+}
+.portfulio .our-work > div img{
+    width: 92%;
+    margin: 10px;
+}
+/* End portfiulio*/
+/* --------------------------------------------*/
+/* start contact*/
+.contact{
+    background-color: rgb(97, 112, 107);
+    overflow: hidden;
+}
+.contact h2{
+    color: white;
+}
+.contact p{
+    color: rgb(202, 194, 194);
+}
+.contact .info-contact ,
+.contact .form {
+    width: 50%;
+    float: left;
+}
+/* End contact*/
+/* ---------------------------------------------*/
+/* start footer*/
+.footer{
+    background-color:rgb(61, 66, 65);
+    padding: 20px 0px;
+    text-align: center;
+}
+/* End footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+

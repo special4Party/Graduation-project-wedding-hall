@@ -419,13 +419,12 @@ padding-bottom: 30px;
 }
 
 .portfulio h2{
-    color: rgb(99, 97, 97);
+    color: #777;
 }
 
 .portfulio p{
     line-height: 1.7;
     color: #666;
-    margin-bottom: 30px;
 }
 
 .portfulio .our-work{
@@ -440,10 +439,6 @@ margin-bottom: 10px;
 .portfulio .our-work > div img{
     width: 92%;
     margin: 10px;
-    padding:3px ;
-    background-color: #999;
-    border: 1px solid #ccc;
-    box-shadow: 2px 3px 7px #ccc;
 }
 /* End portfiulio*/
 /* --------------------------------------------*/
@@ -451,114 +446,25 @@ margin-bottom: 10px;
 .contact{
     background-color: rgb(97, 112, 107);
     overflow: hidden;
-    padding-top: 50px;
-    padding-bottom: 70px;
 }
 .contact h2{
     color: white;
-    margin-left: 40px;
-   
 }
 .contact p{
     color: rgb(202, 194, 194);
-    margin-left: 40px;
-    line-height: 1.7;
 }
-
-.contact p strong{
-    color: white;
-}
-
-.contact .form label{
-    display: block; /* لوحده سطر على فيلد التيكست يبقى حتى */
-    color: rgb(202, 194, 194);
-    margin: 10px 0px;
-}
-
-
-
-.contact .info-contact {
+.contact .info-contact ,
+.contact .form {
     width: 50%;
     float: left;
-    margin-right: 5%;
-}
-.contact .form {
-    width: 45%;
-    float: left;
-}
-
-.contact .form input[type="text"],
-.contact .form input[type="email"],
-.contact .form input[type="tel"]{
-    background-color: #4b5557;
-    color: #fff;
-    padding: 10px;
-    border: 0px;
-    width: 70%;
-    margin-bottom: 10px;
-}
-
-.contact .form textarea{
-    background-color: #4b5557;
-    color: #fff;
-    padding: 10px;
-    border: 0px;
-    width: 80%;
-    margin-bottom: 10px;
-    height: 200px;
-}
-
-.contact .form input[type="submit"]{
-    background-color: #88c3cf;
-    color: rgb(36, 29, 29);
-    padding: 10px 20px;
-    border: 0px;
-    margin-top: 20px;
-    font-weight: bold;
-}
-.contact .form input[type="submit"]:hover{
-    background-color: #39b1c9;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
 }
 /* End contact*/
 /* ---------------------------------------------*/
 /* start footer*/
 .footer{
-    background-color:rgb(151, 148, 133);
+    background-color:rgb(61, 66, 65);
     padding: 20px 0px;
-    overflow: hidden;
-}
-
-.footer span{
-    float: right;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    width: 30%;
-    
-}
-
-.footer ul{
-    width: 50%;
-    list-style: none;
-    padding-left: 0px;
-    float: right;
-}
-
-.footer ul li{
-   display: inline-block;
-   width: 40px;
-   margin:0px 5px 0px ;
-}
-
-.footer ul li img{
-    width: 100%;
-    padding: 5px;
-}
-.footer ul li img:hover{
-    border: 0px solid rgb(54, 53, 53);
-    border-radius: 40px;
-    box-shadow: 0px 1px 15px rgb(0, 0, 0);
+    text-align: center;
 }
 /* End footer*/
 

@@ -525,40 +525,33 @@ margin-bottom: 10px;
 /* ---------------------------------------------*/
 /* start footer*/
 .footer{
-    background-color:rgb(151, 148, 133);
+    background-color:rgb(61, 66, 65);
     padding: 20px 0px;
-    overflow: hidden;
-}
-
-.footer span{
-    float: right;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    width: 30%;
-    
+    text-align: center;
 }
 
 .footer ul{
-    width: 50%;
     list-style: none;
     padding-left: 0px;
-    float: right;
 }
 
 .footer ul li{
    display: inline-block;
-   width: 40px;
-   margin:0px 5px 0px ;
+   width: 4%;
 }
 
 .footer ul li img{
-    width: 100%;
+    width: 92%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
     padding: 5px;
 }
 .footer ul li img:hover{
-    border: 0px solid rgb(54, 53, 53);
+    border: 1px solid rgb(54, 53, 53);
     border-radius: 40px;
-    box-shadow: 0px 1px 15px rgb(0, 0, 0);
+    box-shadow: 2px 3px 7px rgb(203, 224, 126);
 }
 /* End footer*/
 

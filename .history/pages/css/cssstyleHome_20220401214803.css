@@ -527,19 +527,19 @@ margin-bottom: 10px;
 .footer{
     background-color:rgb(151, 148, 133);
     padding: 20px 0px;
+    
     overflow: hidden;
 }
 
 .footer span{
-    float: right;
+    float: left;
     padding-top: 30px;
     padding-bottom: 50px;
-    width: 30%;
-    
+    width: 50%;
+    margin: 10px 30px ;
 }
 
 .footer ul{
-    width: 50%;
     list-style: none;
     padding-left: 0px;
     float: right;
@@ -548,7 +548,7 @@ margin-bottom: 10px;
 .footer ul li{
    display: inline-block;
    width: 40px;
-   margin:0px 5px 0px ;
+   margin:10px 5px 0px ;
 }
 
 .footer ul li img{
