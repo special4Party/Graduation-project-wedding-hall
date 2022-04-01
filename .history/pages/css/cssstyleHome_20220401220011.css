@@ -64,7 +64,7 @@ overflow: hidden;
 }
 
 .header .navbar h2{
-    float: left;
+    float: right;
     text-transform: uppercase;
 }
 
@@ -78,7 +78,7 @@ font-size: 40px;
 list-style: none;
 padding-left: 0px;
 overflow: hidden;
-float: right;
+float: left;
 }
 
 .header .navbar ul li {

@@ -82,7 +82,7 @@ float: right;
 }
 
 .header .navbar ul li {
-    float: left;
+    float: right;
     padding: 10px;
     text-transform: uppercase;
 
