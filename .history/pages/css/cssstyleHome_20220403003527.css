@@ -65,8 +65,7 @@ background-color:white;
 .header .navbar{
 background-color: rgb(206, 176, 204);
 color: rgb(123, 9, 151);
-height: 70px;
-padding: 10px;
+height: 100px;
 overflow: hidden;
 }
 
@@ -117,7 +116,7 @@ background-color: #dddadc;
 .features .feat{
     float: left;
     width: 33.3333%;
-    height: 110px;
+    height: 150px;
    /*
     background-color: rgb(185, 93, 93); 
    */
@@ -125,13 +124,9 @@ background-color: #dddadc;
 
 .features .feat h2{
     text-transform: uppercase;
-    color:  rgb(51, 14, 136);
-   padding-bottom: 10px;
+    color:  rgb(51, 14, 136);;
+   
 }
-.features .feat h2:hover{
-    text-shadow: 3px 2px 17px #9b2f83;
-}
-
 .features .feat p{
     line-height: 1.7;
     color: rgb(156, 107, 153);
@@ -192,7 +187,6 @@ background-color: #dddadc;
 .about-us .info .hobbies .content{
     float: left;
     width: 50%;
-    padding-top: 30px;
     min-height: 100px;
     overflow: hidden;
 }
