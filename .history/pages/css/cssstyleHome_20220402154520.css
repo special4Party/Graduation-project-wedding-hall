@@ -1,0 +1,582 @@
+
+/* Start main rules */
+body{
+background-color:white;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.clearfix{
+    clear: both; /* تعالج الفلوت الخاصة باليمين واليسار */
+}
+   
+/* End main rules */
+/* ----------------------------------------- */
+/* Start header */
+.header .slider{
+/*background-color: rgb(228, 177, 215); */
+    height: 550px;
+    background-image: url("../../images/24.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:rgb(168, 16, 105);
+}
+
+.header .slider .intro {
+  height: 500px;
+  padding: 250px;
+  text-align: center;
+
+}
+
+.header .slider .intro button{
+    background: none;
+    padding: 10px 20px;
+    margin-top: 40px;
+    font-size: 17px;
+    border: 2px solid rgb(32, 136, 206);
+    font-weight: bold;
+}
+.header .slider .intro button:hover{
+    background-color: rgb(173, 213, 236);
+    font-size: 20px;
+}
+
+.header .slider .intro h2{
+    margin: 0px auto;
+    font-size: 45px;
+    width: 200px;
+    border-top: 4px solid rgb(32, 136, 206);
+    border-bottom: 4px solid rgb(32, 136, 206);
+    padding: 5px 0px;
+}
+
+.header .navbar{
+background-color: rgb(56, 53, 45);
+color: rgb(32, 136, 206);
+overflow: hidden;
+}
+
+.header .navbar h2{
+    float: left;
+    text-transform: uppercase;
+}
+
+.header .navbar h2 span{
+float: left;
+color: rgb(214, 75, 156);
+font-size: 40px;
+}
+
+.header .navbar ul{
+list-style: none;
+padding-left: 0px;
+overflow: hidden;
+float: right;
+}
+
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+
+.header .navbar ul li a {
+color: white;
+text-decoration: none;
+}
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+    color: rgb(32, 136, 206);
+}
+/* End header */
+/* ----------------------------------------- */
+/* start features */
+.features{
+overflow: hidden;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.features .feat{
+    float: left;
+    width: 33.3333%;
+    height: 150px;
+   /*
+    background-color: rgb(185, 93, 93); 
+   */
+}
+
+.features .feat h2{
+    text-transform: uppercase;
+    color: #555;
+   
+}
+.features .feat p{
+    line-height: 1.3;
+    color: rgb(46, 99, 148);
+    text-align:left;
+    padding: 0px 30px 0px 0px;
+}
+/* End features */
+/*-----------------------------------------*/
+/* start about us */
+.about-us{
+    background-color: rgb(218, 200, 144);
+    overflow: hidden;
+}
+
+.about-us .image{
+    float: left;
+    margin-top: 10%;
+    width: 35%;
+}
+
+.about-us .image img{
+    width: 100%;
+}
+
+.about-us .info{
+    float:left;
+    text-align: left;
+    width: 65%;
+}
+
+.about-us .info h2{
+    text-transform: uppercase;
+    margin: 40px 0px 20px 40px;
+    line-height: 1.6;
+    
+}
+
+.about-us .info > p{
+    margin: 0px 0px 10px 40px;
+}
+
+.about-us .info > p:last-of-type{
+ /*  هاي معناها اخر براغراف بس  من البراغرافس اللي جوا الانفو اعطيها هاي الخصائص */
+    margin-top: 20px;
+    color: rgb(71, 64, 64);
+}
+.about-us .info p{
+   line-height: 21.4px;
+    color: rgb(71, 64, 64);
+}
+
+.about-us .info .hobbies{
+    overflow: hidden;
+    margin: 40px 0px 0px 40px;
+}
+
+.about-us .info .hobbies .content{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+.about-us .info .hobbies .content .icons{
+    float: left;
+    width: 20%;
+    margin-right: 5%;/* %25 =  المارجن هون مع الويدث   
+                 لتيكست  لويدث   بنعطيهم  75%   بضل   */
+    
+}
+.about-us .info .hobbies .content .icons img{
+    max-width: 100%; /* هاي عشان  صورة الايقونة ما تطلع عن الويدث اللي حطينالها ياه اللي هو 40 بكسل  */
+    margin: 20px 10px 0px 0px;
+ /* margin : فوق يمين تحت يسار */
+
+}
+.about-us .info .hobbies .content .text{
+    float: left;
+    width: 75%;
+}
+/* End about us */
+/*--------------------------------------- */
+/* Start skills*/
+.my-skills{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.my-skills .skills , 
+.my-skills .progress{
+width: 50%;
+float: left;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.my-skills .skills h2{
+    text-transform: uppercase;
+    margin: 40px 0px 20px 40px;
+    line-height: 1.6;
+    
+}
+
+.my-skills .skills p{
+    margin: 0px 0px 10px 40px;
+}
+
+.my-skills .skills p:last-of-type{
+ /*  هاي معناها اخر براغراف بس  من البراغرافس اللي جوا الانفو اعطيها هاي الخصائص */
+    margin-top: 20px;
+    color: rgb(71, 64, 64);
+}
+.my-skills .skills button{
+    margin-left: 198px;
+    margin-top: 57px;
+}
+.my-skills .skills button:hover{
+    border: 3px solid #bd2a98 ;
+    color: #bd2a98;
+}
+
+.my-skills .progress .tools{
+    margin-left: 50px;
+}
+.my-skills .progress .tools div{
+    background-color: #f575d3 ;
+    height: 25px;
+}
+.my-skills .progress .tools div span{
+    background-color: rgb(88, 174, 231);;
+    height: 25px;
+    text-align: right;
+    line-height: 25px;
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+
+/* End skills */
+/* ------------------------------------------ */
+/* Start resume */
+.resume{
+    background-color: rgb(218, 200, 144);
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.resume h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #666;
+}
+
+.resume button{
+    margin-top: 30px;
+}
+.resume button:hover{
+    border: 3px solid #e761c6 ;
+    color: #e761c6 ;
+}
+
+/* End resume */
+/* ---------------------------------------------------*/
+/* start education */
+.my-education{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.my-education .main{
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.my-education .expe{
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.my-education .expe h3{
+    margin-top: 37px;
+    margin-bottom: 8px;
+}
+
+
+.my-education .expe span{
+    display: block;
+    margin-bottom: 8px;
+}
+
+.my-education .expe span:first-of-type{
+    color: #555;
+}
+
+.my-education .expe span:last-of-type{
+    color: #4dd870;
+    background-color: #666;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.my-education .expe hr{
+    margin: 20px 0px;
+    background-color: #999;
+   height: 1px;
+   border: 0px;
+
+}
+
+.my-education .expe p{
+    line-height: 1.7;
+    color: #666;
+}
+
+.my-education .work,
+.my-education .expe{
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.my-education .main h2,
+.my-education .work h2{
+    text-transform: uppercase;
+    margin: 15px 0px 20px 40px;
+    line-height: 6px;
+    
+}
+
+.my-education .main p ,
+.my-education .work p
+{
+    margin: 0px 0px 10px 40px;
+}
+
+.my-education .main p:last-of-type{
+    margin-top: 20px;
+    color: rgb(71, 64, 64);
+}
+
+
+
+
+/* End educatiom*/
+/* ------------------------------------------------*/
+/* start test-imonias*/
+.test-imonias{
+    background-color: rgb(219, 228, 192);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.test-imonias q{
+    color: rgb(110, 112, 114);
+    font:italic bold 17px/1.8 tahoma,arial;
+}
+
+.test-imonias h3{
+    color: rgb(85, 81, 81);
+    margin-bottom: 30px;
+}
+
+.test-imonias ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.test-imonias ul li{
+    border: 2px solid #4dd870;
+    border-radius: 20px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    cursor: pointer; /*  ايد  بصير الماوس شكل هاد */
+}
+.test-imonias ul li.active,
+.test-imonias ul li:hover{
+
+    background-color: #4dd870;
+}
+
+/* End test-imonias*/
+/* ---------------------------------------------*/
+/* start portfiulio*/
+.portfulio{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.portfulio h2{
+    color: rgb(99, 97, 97);
+}
+
+.portfulio p{
+    line-height: 1.7;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.portfulio .our-work{
+overflow: hidden;
+}
+
+.portfulio .our-work > div{  /* اشارة الاكبر معناها الديف اللي جواه فورا اول ابن له يعني */
+float: left;
+width: 33.3333%;
+margin-bottom: 10px;
+}
+.portfulio .our-work > div img{
+    width: 92%;
+    margin: 10px;
+    padding:3px ;
+    background-color: #999;
+    border: 1px solid #ccc;
+    box-shadow: 2px 3px 7px #ccc;
+}
+/* End portfiulio*/
+/* --------------------------------------------*/
+/* start contact*/
+.contact{
+    background-color: rgb(97, 112, 107);
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.contact h2{
+    color: white;
+    margin-left: 40px;
+   
+}
+.contact p{
+    color: rgb(202, 194, 194);
+    margin-left: 40px;
+    line-height: 1.7;
+}
+
+.contact p strong{
+    color: white;
+}
+
+.contact .form label{
+    display: block; /* لوحده سطر على فيلد التيكست يبقى حتى */
+    color: rgb(202, 194, 194);
+    margin: 10px 0px;
+}
+
+
+
+.contact .info-contact {
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+}
+.contact .form {
+    width: 45%;
+    float: left;
+}
+
+.contact .form input[type="text"],
+.contact .form input[type="email"],
+.contact .form input[type="tel"]{
+    background-color: #4b5557;
+    color: #fff;
+    padding: 10px;
+    border: 0px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.contact .form textarea{
+    background-color: #4b5557;
+    color: #fff;
+    padding: 10px;
+    border: 0px;
+    width: 80%;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+.contact .form input[type="submit"]{
+    background-color: #88c3cf;
+    color: rgb(36, 29, 29);
+    padding: 10px 20px;
+    border: 0px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.contact .form input[type="submit"]:hover{
+    background-color: #39b1c9;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+/* End contact*/
+/* ---------------------------------------------*/
+/* start footer*/
+.footer{
+    background-color:rgb(151, 148, 133);
+    padding: 20px 0px;
+    overflow: hidden;
+}
+
+.footer span{
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 30%;
+    
+}
+
+.footer ul{
+    width: 50%;
+    list-style: none;
+    padding-left: 0px;
+    float: right;
+}
+
+.footer ul li{
+   display: inline-block;
+   width: 40px;
+   margin:0px 5px 0px ;
+}
+
+.footer ul li img{
+    width: 100%;
+    padding: 5px;
+}
+.footer ul li img:hover{
+    border: 0px solid rgb(54, 53, 53);
+    border-radius: 40px;
+    box-shadow: 0px 1px 15px rgb(0, 0, 0);
+}
+/* End footer*/
+
+/* start my freamwork */
+
+.my-button{
+    background: none;
+    border: 3px solid rgb(32, 136, 206); ;
+    padding: 10px 30px;
+    color: rgb(32, 136, 206);;
+    font-weight: bold;
+}
+
+/* End my freamwork */
+
+
+
+
+
+
+
