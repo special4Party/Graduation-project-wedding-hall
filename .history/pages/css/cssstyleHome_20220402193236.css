@@ -412,15 +412,15 @@ padding-bottom: 30px;
     color: rgb(83, 13, 173);
     margin-bottom: 30px;
 }
-
-.test-imonias .scroll >div{
-    display: none;
+.scroll{
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+.scroll::-webkit-scrollbar{
+    width: 0px;
 }
 
-.test-imonias .scroll .active-scroll{
-    display: block;
-}
-/*
 .test-imonias ul{
     list-style: none;
     padding-left: 0;
@@ -434,14 +434,14 @@ padding-bottom: 30px;
     width: 15px;
     height: 15px;
     display: inline-block;
-    cursor: pointer; //هاي عشان شكل الماوس يصير ايد
-  
+    cursor: pointer; /*  ايد  بصير الماوس شكل هاد */
 }
 .test-imonias ul li.active,
 .test-imonias ul li:hover{
+
     background-color: #e425a4;
 }
-*/
+
 /* End test-imonias*/
 /* ---------------------------------------------*/
 /* start portfiulio*/

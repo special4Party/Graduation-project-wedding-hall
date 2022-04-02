@@ -1,0 +1,5 @@
+//scroll qoatation
+(function autoScroll(){
+
+
+}());
