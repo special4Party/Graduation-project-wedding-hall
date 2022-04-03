@@ -3,7 +3,7 @@
 $(".scroll .active-scroll").each(function(){
 
     if(!$(this).is(':last-child')){
-        $(this).delay(3000).fadeOut(1000,function(){
+        $(this).delay(2000).fadeOut(700,function(){
             $(this).removeClass('active-scroll').next().addClass('active-scroll').fadeIn();
             // document.getElementsByClassName('active')[1].style.backgroundColor='#777eee';
             // document.getElementById('p1').nextElementSibling.style.backgroundColor='#777eee';
@@ -11,7 +11,7 @@ $(".scroll .active-scroll").each(function(){
         });
         
     }else{
-        $(this).delay(2000).fadeOut(1000,function(){
+        $(this).delay(1500).fadeOut(700,function(){
             $(this).removeClass('active-scroll');
             $('.scroll div').eq(0).addClass('active-scroll').fadeIn();
             autoScroll();
