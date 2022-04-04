@@ -1,5 +1,5 @@
 <!-- <?php
-    include '';
+    include 'pages/php/header.php';
 ?> -->
 <!DOCTYPE html>
 <html>
@@ -10,8 +10,8 @@
 
     </head>
     <body>
-        <div>
-            
+        <div class='footer'>
+            welcom to admin page
         </div>
     </body>
 
@@ -19,5 +19,5 @@
 
 
 <!-- <?php
-    include '';
+    include 'pages/php/footer.php';
 ?> -->

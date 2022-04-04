@@ -1,0 +1,94 @@
+/* Start header */
+header{
+    background-color: red;
+    height: 70px;
+}
+.header .slider{
+    /*background-color: rgb(228, 177, 215); */
+        height: 550px;
+        background-image: url("../../images/25.jpg");
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color:rgb(61, 22, 151);
+    }
+    
+    .header .slider .intro {
+      height: 500px;
+      padding: 250px;
+      text-align: center;
+    
+    }
+    
+    .header .slider .intro button{
+        background: none;
+        padding: 10px 20px;
+        margin-top: 40px;
+        font-size: 17px;
+        border: 2px solid rgb(123, 9, 151);
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .header .slider .intro button:hover{
+        background-color: rgb(206, 176, 204);
+        font-weight: bold;
+    }
+    
+    .header .slider .intro h2{
+        margin: 0px auto;
+        font-size: 45px;
+        width: 200px;
+        border-top: 4px solid rgb(123, 9, 151);
+        border-bottom: 4px solid rgb(123, 9, 151);
+        padding: 5px 0px;
+        
+    }
+    
+    .header .navbar{
+    background-color: rgb(206, 176, 204);
+    color: rgb(123, 9, 151);
+    height: 70px;
+    padding: 10px;
+    overflow: hidden;
+    }
+    
+    .header .navbar h2{
+        float: left;
+        text-transform: uppercase;
+    }
+    
+    .header .navbar h2 span{
+    float: left;
+    color: rgb(51, 14, 136);
+    font-size: 40px;
+    }
+    
+    .header .navbar ul{
+    list-style: none;
+    padding-left: 0px;
+    overflow: hidden;
+    float: right;
+    }
+    
+    .header .navbar ul li {
+        float: left;
+        padding: 10px;
+        text-transform: uppercase;
+    
+    }
+    
+    .header .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    .header .navbar ul li.active a,
+    .header .navbar ul li a:hover {
+        color: rgb(51, 14, 136);
+    }
+    /* End header */
+    /* ----------------------------------------- */
