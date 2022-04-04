@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign in And Sign up Page</title>
+        <link rel="stylesheet"  href="./css/normalize.css">
+        <link rel="stylesheet"  href="./css/regist.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    </head>
+    <body>
+<!--                     START SIGN IN                        -->
+<div class="container sign-up-mode">
+    <div class="signin-signup">
+       <form action="" class="sign-in-form">
+           <h2 class="title">Sign in</h2>
+
+           <div class="input-field">
+               <!-- هون الايقونات  للقفل والشخص-->
+               <i class="fas fa-user"></i>
+               <input type="text" placeholder="User Name">
+           </div>
+
+           <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="password">
+          </div>
+          <input type="submit" value="Log in" class="btn">
+          <p class="social-text">or sign in with social media</p>
+          <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="" class="social-icon">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+          </div>
+       </form>
+<!--                     END SIGN IN                        -->
+
+<!--                     START SIGN UP                      -->
+       <form action="" class="sign-up-form">
+        <h2 class="title">Sign up</h2>
+
+        <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="User Name">
+        </div>
+        <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="text" placeholder="Email">
+        </div>
+
+        <div class="input-field">
+         <i class="fas fa-lock"></i>
+         <input type="password" placeholder="password">
+       </div>
+       <input type="submit" value="Sign up" class="btn">
+       <p class="social-text">or sign in with social media</p>
+       <div class="social-media">
+           <a href="#" class="social-icon">
+             <i class="fab fa-facebook-f"></i>
+           </a>
+           <a href="" class="social-icon">
+             <i class="fab fa-twitter"></i>
+           </a>
+           <a href="" class="social-icon">
+             <i class="fab fa-whatsapp"></i>
+           </a>
+           <a href="" class="social-icon">
+             <i class="fab fa-google"></i>
+           </a>
+       </div>
+    </form>
+<!--                     END SIGN UP                      -->
+    </div>
+    <div class="panel-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>you have an account ?!</h3>
+                    <p>go to enter your active account</p>
+                    <button class="btn" id="sign-in-btn">Sign in</button>
+                </div>
+                <img src="../images/1.jpg" alt="signin" class="image">
+            </div>
+
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>Register now</h3>
+                    <p>you dont have an account? it's not a problem go to creat account...</p>
+                    <button class="btn" id="sign-up-btn">Sign up</button>
+                </div>
+                <img src="../images/1.jpg" alt="signup" class="image">
+            </div>
+    </div>
+</div>
+<script src="app.js"></script>
+    </body>
+</html>
