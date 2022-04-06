@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/layout/css/register.css">
+    <link rel="stylesheet" href="/layout/css/normalize.css">
+    <title>register page</title>
+</head>
+<body>
+    <div class="head">
+        Home
+     </div>
+  <div class="container">
+     
+      <div class="card">
+         
+          <div class="inner-box" id="card"><!--it means inside box-->
+            <div class="card-front">
+               <h2>LOG IN</h2>
+               <form>
+                   <input type="email" class="input-box" placeholder="Enter your Email" required> 
+                   <input type="password" class="input-box" placeholder="Enter your password" required> 
+                   <button type="submit" class="submite-btn">SUBMITE</button>
+                   <input type="checkbox"><span>Remember me</span> 
+               </form>
+               <button type="button" class="btn" onclick="openRegister()">I'm New Here</button>
+               <a href="">Forget password</a>
+            </div>
+            <div class="card-back">
+                <h2>SIGN UP</h2>
+               <form>
+                   <input type="text" class="input-box" placeholder="Enter your Name" required>  
+                   <input type="email" class="input-box" placeholder="Enter your Email" required> 
+                   <input type="password" class="input-box" placeholder="Enter your password" required> 
+                   <button type="submit" class="submite-btn">SUBMITE</button>
+                   <input type="checkbox"><span>Remember me</span> 
+               </form>
+               <button type="button" class="btn" onclick="openLogin()">I've an Account</button>
+               <a href="">Forget password</a>
+            </div>
+          </div>
+      </div>
+  </div>
+ <script>
+     var card=document.getElementById("card");
+     function openRegister(){
+        card.style.transform="rotateY(-180deg)";
+     }
+     function openLogin(){
+        card.style.transform="rotateY(0deg)";
+     }
+ </script>
+</body>
+</html>

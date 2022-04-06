@@ -21,7 +21,7 @@ background-color:white;
 .header .slider{
 /*background-color: rgb(228, 177, 215); */
     height: 550px;
-    background-image: url("/images/img/25.jpg");
+    background-image: url("../../images/25.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

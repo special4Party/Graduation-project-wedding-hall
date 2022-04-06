@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: 1920px;
+    font-family:cursive;
+    background-color: rgb(196, 160, 226);
+    color: rgb(53, 4, 50);
+}
