@@ -189,28 +189,16 @@ h4{
     border: none;
     border-radius: 40px;
     height: 30px;
-    padding: 20px 2px;
+    padding: 20px 0px;
     text-align: center;
     width: 60%;
-    margin-left: 80px;
     font-size: 18px;
     color: #444;
 }
-.search-icon{
-    width: 10%;
-    height:  40px;
-    background-image: url(/images/img/search.png);
-    background-position: center;
-    background-color: rgba(159, 47, 182, 0.26);
-    background-size: 50px;
-    background-repeat: no-repeat;
-    border:1px solid #776b6c;
-    border-radius: 30px;
+.search img{
+    width: 5%;
     float: right;
     margin: 0px 70px;
-}
-button{
-    background-color: none;
 }
 /* -------------------start footer-----------------------*/
 .footer{

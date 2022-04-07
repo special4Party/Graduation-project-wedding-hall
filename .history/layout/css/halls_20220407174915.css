@@ -200,17 +200,13 @@ h4{
     width: 10%;
     height:  40px;
     background-image: url(/images/img/search.png);
+    background-size: cover;
     background-position: center;
-    background-color: rgba(159, 47, 182, 0.26);
     background-size: 50px;
     background-repeat: no-repeat;
     border:1px solid #776b6c;
-    border-radius: 30px;
     float: right;
     margin: 0px 70px;
-}
-button{
-    background-color: none;
 }
 /* -------------------start footer-----------------------*/
 .footer{
