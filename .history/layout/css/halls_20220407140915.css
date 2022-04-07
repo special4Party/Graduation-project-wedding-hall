@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+
+}
+nav{
+    flex: 1;
+    text-align: center;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 25px;  
+}
+a{
+    /* Home   About us   Contact*/
+    text-decoration: none;
+    color: #555;
+}
+p{ /* Home   About us   Contact*/
+    color: #555;
+}
+.logo img{
+    border-radius: 70px;
+    width:25%;
+}
+
+.header{
+    background: radial-gradient(rgba(207, 109, 139, 0.781),#eedcdc);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header .row{
+    margin-top: 70px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.colum-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.colum-2 img{
+    max-width:100% ;
+    padding: 50px 0px;
+    border-radius: 30%;
+}
+.colum-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0px;
+}
+.btn{
+    display: inline-block;
+    background: #741b68;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0px;
+    border-radius: 30px;
+}
+.btn:hover{
+    background: #ac4bd3;
+    color: rgb(17, 5, 19);
+    box-shadow: 2px 4px 25px #e21ec8;
+}
+
+
+
+
+
+
+
+
+
