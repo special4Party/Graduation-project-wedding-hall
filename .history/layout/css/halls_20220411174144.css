@@ -227,7 +227,7 @@ button{
    top:0; left:0;
    min-height: 100vh;
    width: 100%;
-   background: rgba(95, 82, 95, 0.8);
+   background: rgba(71, 62, 71, 0.8);
    display: none;
    align-items: center;
    justify-content: center;
@@ -237,7 +237,7 @@ button{
    display: none;
    padding:20px;
    text-align: center;
-   background: rgb(255, 255, 255);
+   background: #fff;
    position: relative;
    margin:2rem;
    width: 40rem;
@@ -253,7 +253,7 @@ button{
    position: absolute;
    top:1rem; right:1.5rem;
    cursor: pointer;
-   color:rgb(58, 52, 52);
+   color:#444;
    font-size: 4rem;
 }
 
@@ -263,7 +263,7 @@ button{
 }
 
 .products-preview .preview h3{
-   color:rgba(85, 7, 158, 0.795);
+   color:#444;
    padding:.5rem 0;
    font-size: 2.5rem;
 }
@@ -273,13 +273,13 @@ button{
    line-height: 1.5;
    padding:1rem 0;
    font-size: 1.6rem;
-   color:rgba(104, 13, 89, 0.747);
+   color:#777;
 }
 
 .products-preview .preview .price{
    padding:1rem 0;
    font-size: 2.5rem;
-   color:#d42585;
+   color:#27ae60;
 }
 
 .products-preview .preview .buttons{
@@ -293,18 +293,17 @@ button{
    flex:1 1 16rem;
    padding:1rem;
    font-size: 1.2rem;
-   color:rgb(189, 15, 131);
+   color:#444;
    border:.1rem solid #444;
 }
 
 .products-preview .preview .buttons a.details{
-   background: rgba(91, 19, 109, 0.322);
-   color:rgb(189, 15, 131);
+   background: #444;
+   color:#fff;
 }
 
 .products-preview .preview .buttons a.details:hover{
-    background: #444;
-   color: white;
+   background: #111;
 }
 
 .products-preview .preview .buttons a.book:hover{
@@ -313,7 +312,7 @@ button{
 }
 /* -------------------start footer-----------------------*/
 .footer{
-    background-color:#c27b96be;
+    background-color:#ee92a1c2;
     padding: 10px ;
     overflow: hidden;
     text-align: center;
@@ -324,7 +323,7 @@ button{
     padding-top: 30px;
     padding-bottom: 10px;
     width: 100%;
-    color: #070505;
+    color: #1d1516;
 }
 
 .footer ul{
@@ -345,9 +344,9 @@ button{
     padding: 5px;
 }
 .footer ul li img:hover{
-    border: 0px solid rgb(248, 244, 245);
+    border: 0px solid rgb(211, 10, 37);
     border-radius: 40px;
-    box-shadow: 0px 1px 20px rgb(253, 250, 250);
+    box-shadow: 0px 1px 15px rgb(223, 70, 82);
 }
 
 .container-footer{
