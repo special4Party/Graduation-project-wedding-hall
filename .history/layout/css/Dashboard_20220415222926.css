@@ -8,21 +8,8 @@
     box-sizing: border-box;
     font-family: cursive;
 }
-:root{
-    /* ------------colors ----------------*/
-    --primary-color:rgba(183, 199, 230, 0.459);
-    --second-color:rgba(181, 105, 231, 0.651);
-    --panel-color: #FFF;
-    --text-color:#000;
-    --black-light-color:#4b4848;      
-    --title-color: #fff;
-    --shadw-color:#3c7cdb;
-    --hover-color:#d148e4;
-    --table-colors:rgb(13, 5, 58);
-    --button-color:#743cf7;
-}
 body{
-    background:var(--primary-color);
+    background:rgba(183, 199, 230, 0.459)
 }
 nav{
     position: sticky;
@@ -33,7 +20,7 @@ nav{
     width: 90px;
     /* /////////////////////////////////
     width: 280px; */
-    background:var(--panel-color);
+    background: #fff;
     overflow: hidden;
     transition: 1s;
 }
@@ -64,30 +51,30 @@ a{
     position: relative;
     width: 200px;
     font-size: 14px;
-    color:var(--black-light-color);
+    color: rgb(100, 87, 110);
     display: table;
     padding: 10px;
 }
 .search-icon{
-    width: 5%;
-    height: 55px;
+    width: 10%;
+    height:  40px;
     background-image: url(/images/img/search.png);
     background-position: center;
-    background-color: var(--second-color);
+    background-color: rgba(159, 47, 182, 0.26);
     background-size: 50px;
     background-repeat: no-repeat;
-    border: 1px solid var(--black-light-color);
+    border:1px solid #776b6c;
     border-radius: 30px;
     float: right;
-    margin: 20px 20px;
-    
+    margin: 10px 40px;
 }
 .search-icon:hover{
-    background-color: var(--second-color);
-    box-shadow: 0px 2px 20px var(--shadw-color);
+    background-color: rgba(160, 47, 182, 0.397);
+    box-shadow: 0px 2px 20px #cf70b7;
 }
 button{
     background-color: none;
+    
 }
 nav .fa-solid{
     position: relative;
@@ -103,12 +90,11 @@ nav .fa-solid{
     margin: 10px;
 }
 a:hover{
-    /* background:var(--primary-color); */
-    text-shadow: 0px 2px 10px var(--shadw-color);
+    background: rgba(140, 182, 230, 0.658);
 }
 
 a:hover i{
-    color: var(--hover-color);
+    color: #d148e4;
     transition: 0.3s;
 }
 .logout{
@@ -127,17 +113,16 @@ a:hover i{
 .main-top{
     display: flex;
     width: 100%;
-    justify-content: center;
 }
 .main-top i{
     position: absolute;
     right: 0;
     margin: 10px 30px;
-    color: var(--text-color);
+    color: #21bd29;
     cursor: pointer;
 }
 .main-top .fa-solid{
-    color: var(--hover-color);
+    color: #d148e4;
     font-size: 20px;
 }
 .input {
@@ -145,8 +130,6 @@ a:hover i{
     height: 55px;
     border-radius: 30px;
     padding-left: 30px;
-    margin-bottom: 50px;
-    margin-top: 20px;
 }
 .main .users{
     display:flex;
@@ -157,11 +140,11 @@ a:hover i{
 .users .card{
     width: 100%;
     margin: 10px;
-    background: var(--panel-color);
+    background: #fff;
     text-align: center;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 0 2px 10px var(--black-light-color);
+    box-shadow: 0 2px 10px rgb(123, 124, 133);
 }
 .users .card img{
     width:90px;
@@ -178,12 +161,11 @@ a:hover i{
     cursor: pointer;
     border-radius: 10px;
     background: transparent;
-    border: 1px solid var(--text-color);
+    border: 1px solid #743cf7;
 }
 .users .card button:hover{
-    background:var(--second-color);
-    color:var(--text-color);
-    box-shadow: 0px 2px 20px var(--hover-color);
+    background:#743cf77c;
+    color:#fff;
     transition: 0.3s ;
 }
 /* -------------ATTENDENCE SECTION --------- */
@@ -195,9 +177,9 @@ a:hover i{
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    background: var(--panel-color);
+    background: #fff;
     border-radius: 20px;
-    box-shadow: 0 2px 25px var(--shadw-color);
+    box-shadow: 0 2px 25px rgb(63, 74, 221);
 }
 .table{
     border-collapse: collapse;
@@ -208,8 +190,8 @@ a:hover i{
     border-radius:5px;
 }
 table thead tr{
-    color: var(--table-colors);
-    background: var(--second-color);
+    color: rgb(13, 5, 58);
+    background: #a282eb46;
     text-align: left;
     font-weight: bold;
 }
@@ -219,14 +201,14 @@ table thead tr{
     text-align: center;
 }
 .table tbody tr{
-    border-bottom: 1px solid var(--table-colors);
+    border-bottom: 1px solid rgb(73, 27, 180);
 }
 .table tbody tr:nth-of-type(odd){
-    background: var(--primary-color);
+    background: #427dec23;
 }
 
 .table tbody tr:last-of-type{
-    border-bottom: 2px solid var(--hover-color);
+    border-bottom: 2px solid rgb(129, 4, 123);
 }
 .table button{
     padding: 6px 10px;
@@ -234,64 +216,14 @@ table thead tr{
     cursor: pointer;
     font-size: 15px;
     background: transparent;
-    border: 1px solid var(--button-color);
+    border: 1px solid #743cf7;
 }
 .table button:hover{
-    background:var(--button-color);
+    background:#743cf760;
     color: #fff;
-    box-shadow: 0px 2px 20px var(--hover-color);
-    transition: 0.4s ease;
-}
-/* -------------------------------------------- */
-/* -------NIGHT MODE------- */
-.mode-toggle{
-    position: absolute;
-    right: 14px;
-    height: 50px;
-    min-width: 45px;
-    /* background-color: red; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-.mode-toggle .switch{
-    position: relative;
-    display: inline-block;
-    height: 22px;
-    width: 40px;
-    left: 45px;
-    bottom: 13px;
-    border-radius:25px ;
-    background-color: var(--black-light-color);
-}
-.switch:before{
-    content: "";
-    position: absolute;
-    height: 15px;
-    width: 15px;
-    left: 5px;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: var(--panel-color);
-    border-radius: 50%;
-    transition: var(--tran-03);
 }
 
-body.Dark .switch:before{
-    left: 20px;
-    background-color: #FFF;
-}
-body.Dark{
-    --primary-color:rgba(2, 2, 2, 0.459);
-    --second-color:#968f96;
-    --panel-color: rgba(62, 63, 65, 0.459);;
-    /* --text-color:rgb(228, 83, 83); */
-    --black-light-color:#23242b;      
-    --title-color: rgba(8, 9, 10, 0.459);
-    --shadw-color:#ffffff;
-    --hover-color:#f7f3f7;
-    --table-colors:rgb(246, 244, 255);
-    --button-color:#060607;
-}
+
+
+
 

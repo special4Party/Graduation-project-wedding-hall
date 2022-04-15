@@ -280,18 +280,17 @@ table thead tr{
 
 body.Dark .switch:before{
     left: 20px;
-    background-color: #FFF;
 }
 body.Dark{
-    --primary-color:rgba(2, 2, 2, 0.459);
-    --second-color:#968f96;
-    --panel-color: rgba(62, 63, 65, 0.459);;
+    --primary-color:rgba(42, 44, 42, 0.459);
+    --second-color:#313031;
+    --panel-color: rgba(18, 19, 20, 0.459);;
     /* --text-color:rgb(228, 83, 83); */
     --black-light-color:#23242b;      
     --title-color: rgba(8, 9, 10, 0.459);
     --shadw-color:#ffffff;
     --hover-color:#f7f3f7;
-    --table-colors:rgb(246, 244, 255);
+    --table-colors:rgb(20, 17, 34);
     --button-color:#060607;
 }
 

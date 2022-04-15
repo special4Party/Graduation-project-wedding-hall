@@ -280,7 +280,6 @@ table thead tr{
 
 body.Dark .switch:before{
     left: 20px;
-    background-color: #FFF;
 }
 body.Dark{
     --primary-color:rgba(2, 2, 2, 0.459);

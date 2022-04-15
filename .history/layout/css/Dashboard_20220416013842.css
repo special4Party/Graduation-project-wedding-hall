@@ -178,12 +178,11 @@ a:hover i{
     cursor: pointer;
     border-radius: 10px;
     background: transparent;
-    border: 1px solid var(--text-color);
+    border: 1px solid #743cf7;
 }
 .users .card button:hover{
     background:var(--second-color);
-    color:var(--text-color);
-    box-shadow: 0px 2px 20px var(--hover-color);
+    color:var(--panel-color);
     transition: 0.3s ;
 }
 /* -------------ATTENDENCE SECTION --------- */
@@ -239,8 +238,6 @@ table thead tr{
 .table button:hover{
     background:var(--button-color);
     color: #fff;
-    box-shadow: 0px 2px 20px var(--hover-color);
-    transition: 0.4s ease;
 }
 /* -------------------------------------------- */
 /* -------NIGHT MODE------- */
@@ -280,18 +277,17 @@ table thead tr{
 
 body.Dark .switch:before{
     left: 20px;
-    background-color: #FFF;
 }
 body.Dark{
-    --primary-color:rgba(2, 2, 2, 0.459);
-    --second-color:#968f96;
-    --panel-color: rgba(62, 63, 65, 0.459);;
-    /* --text-color:rgb(228, 83, 83); */
+    --primary-color:rgba(60, 63, 61, 0.459);
+    --second-color:#d3c3d3;
+    --panel-color: rgba(18, 19, 20, 0.459);;
+    --text-color:rgb(252, 245, 245);
     --black-light-color:#23242b;      
     --title-color: rgba(8, 9, 10, 0.459);
-    --shadw-color:#ffffff;
-    --hover-color:#f7f3f7;
-    --table-colors:rgb(246, 244, 255);
-    --button-color:#060607;
+    --shadw-color:#07090a;
+    --hover-color:#e443e4;
+    --table-colors:rgb(235, 234, 240);
+    --button-color:#232227;
 }
 
