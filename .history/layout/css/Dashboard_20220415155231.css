@@ -1,0 +1,55 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background:rgba(183, 199, 230, 0.459)
+}
+nav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    /* width: 90px; */
+    width: 280px;
+    background: #fff;
+    overflow: hidden;
+    transition: 1s;
+}
+nav:hover{
+    width: 280px;
+    transition: 1s;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0px 0px 10px;
+    padding: bottom 3rem ;
+}
+.logo img{
+    width:45px;
+    height: 45px;
+}
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+

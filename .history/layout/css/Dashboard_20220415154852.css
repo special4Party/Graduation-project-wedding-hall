@@ -1,0 +1,43 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background:rgba(183, 199, 230, 0.459)
+}
+nav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    width: 90px;
+    background: #fff;
+    overflow: hidden;
+    transition: 1s;
+}
+nav:hover{
+    width: 280px;
+    transition: 1s;
+}
+.logo img{
+    width:90px;
+    height: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+

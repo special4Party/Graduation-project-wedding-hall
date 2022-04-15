@@ -7,7 +7,7 @@ const my_body=document.querySelector("body");
 });
 
 sidebar_toggle.addEventListener("click",()=>{
-  sidebar.classList.toggle("close");
+
 });
 
 

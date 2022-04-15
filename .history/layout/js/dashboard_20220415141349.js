@@ -6,8 +6,8 @@ const my_body=document.querySelector("body");
     my_body.classList.toggle("Dark");
 });
 
-sidebar_toggle.addEventListener("click",()=>{
-  sidebar.classList.toggle("close");
+sidebar.addEventListener("click",()=>{
+  sidebar_toggle.classList.toggle("close");
 });
 
 

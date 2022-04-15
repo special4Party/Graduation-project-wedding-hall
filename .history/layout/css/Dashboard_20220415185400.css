@@ -173,7 +173,7 @@ table thead tr{
 }
 .table tbody tr.active{
     font-weight: bold;
-    color: #8121a7e0;
+    color: #0c6814bb;
 }
 .table tbody tr:last-of-type{
     border-bottom: 2px solid rgb(129, 4, 123);

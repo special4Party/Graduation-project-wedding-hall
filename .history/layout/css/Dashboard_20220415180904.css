@@ -163,32 +163,22 @@ table thead tr{
 .table th,
 .table td{
     padding: 12px 15px;
-    text-align: center;
 }
 .table tbody tr{
-    border-bottom: 1px solid rgb(73, 27, 180);
+    border-bottom: 1px solid rgb(111, 27, 180);
 }
 .table tbody tr:nth-of-type(even){
-    background: #427dec23;
+    background: #dac2eb;
 }
 .table tbody tr.active{
     font-weight: bold;
-    color: #8121a7e0;
+    color: #8c21bd;
 }
 .table tbody tr:last-of-type{
-    border-bottom: 2px solid rgb(129, 4, 123);
+    border-bottom: 2px solid #d425c6;
 }
-.table button{
-    padding: 6px 10px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 15px;
-    background: transparent;
-    border: 1px solid #743cf7;
-}
-.table button:hover{
-    background:#743cf760;
-}
+
+
 
 
 

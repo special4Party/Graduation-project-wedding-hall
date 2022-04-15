@@ -152,43 +152,30 @@ a:hover i{
     font-size: 15px;
     min-width: 100%;
     overflow: hidden;
-    border-radius:5px;
+    border-radius: 5px 5px 0 0;
 }
 table thead tr{
-    color: rgb(13, 5, 58);
-    background: #a282eb46;
+    color: #fff;
+    background: #b39ceb;
     text-align: left;
     font-weight: bold;
 }
 .table th,
 .table td{
     padding: 12px 15px;
-    text-align: center;
 }
 .table tbody tr{
-    border-bottom: 1px solid rgb(73, 27, 180);
+    border-bottom: 1px solid #ddd;
 }
 .table tbody tr:nth-of-type(even){
-    background: #427dec23;
+    background: #f3f3f3;
 }
 .table tbody tr.active{
     font-weight: bold;
-    color: #8121a7e0;
+    color: #8c21bd;
 }
-.table tbody tr:last-of-type{
-    border-bottom: 2px solid rgb(129, 4, 123);
-}
-.table button{
-    padding: 6px 10px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 15px;
-    background: transparent;
-    border: 1px solid #743cf7;
-}
-.table button:hover{
-    background:#743cf760;
-}
+
+
 
 
 

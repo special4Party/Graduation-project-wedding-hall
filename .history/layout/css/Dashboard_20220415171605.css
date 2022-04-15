@@ -101,6 +101,8 @@ a:hover i{
 .main .users{
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .users .card{
     width: 100%;
@@ -133,62 +135,9 @@ a:hover i{
     color: #fff;
     transition: 0.3s ;
 }
-/* -------------ATTENDENCE SECTION --------- */
-.attendence{
-    margin-top: 20px;
-    text-transform: capitalize;
-}
-.attendence-list{
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    background: #fff;
-    border-radius: 20px;
-    box-shadow: 0 2px 25px rgb(63, 74, 221);
-}
-.table{
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 15px;
-    min-width: 100%;
-    overflow: hidden;
-    border-radius:5px;
-}
-table thead tr{
-    color: rgb(13, 5, 58);
-    background: #a282eb46;
-    text-align: left;
-    font-weight: bold;
-}
-.table th,
-.table td{
-    padding: 12px 15px;
-    text-align: center;
-}
-.table tbody tr{
-    border-bottom: 1px solid rgb(73, 27, 180);
-}
-.table tbody tr:nth-of-type(even){
-    background: #427dec23;
-}
-.table tbody tr.active{
-    font-weight: bold;
-    color: #8121a7e0;
-}
-.table tbody tr:last-of-type{
-    border-bottom: 2px solid rgb(129, 4, 123);
-}
-.table button{
-    padding: 6px 10px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 15px;
-    background: transparent;
-    border: 1px solid #743cf7;
-}
-.table button:hover{
-    background:#743cf760;
-}
+
+
+
 
 
 
