@@ -104,7 +104,6 @@ form input[type="radio"]{
 form .button{
     height: 45px;
     margin: 45px 0px;
-    
 }
 form .button input{
     height: 100%;
@@ -124,19 +123,15 @@ form .button input:hover{
 }
 .bttn{
     height: 100%;
-    width: 20%;
+    width: 100%;
     outline: none;
     color: #fff;
     border: none;
     border-radius: 20px;
-    font-size: 15px;
-    margin: 5px auto;
+    font-size: 18px;
+    font-weight: 500;
     letter-spacing: 1px;
-    display: block;
     background: linear-gradient(135deg,#71b7e6,#9b59b6);
-}
-.bttn:hover{
-      background: linear-gradient(-135deg,#71b7e6,#9b59b6);
 }
 @media (max-width:584px) {
     .container{
