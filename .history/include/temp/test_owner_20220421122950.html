@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/layout/css/test_owner.css">
+    <title>Register and log in owner halls</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn">
+
+                </div>
+                <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+                <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
+            </div>
+            <div class="social-icons">
+                <img src="/images/img/faaaa.png" >
+                <img src="/images/img/google-removebg-preview.png" >
+                <img src="/images/img/ista-removebg-preview.png" >
+            </div>
+            <form id="logIn" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="password" class="input-field" placeholder="Enter your Password" required>
+                <input type="checkbox" class="check-box"><span>Rmember password</span>
+                <button type="submit" class="submit-btn">Log in</button>
+            </form>
+            <!-- --------------------- -->
+            <form id="signup" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="example@gmail.com" required>
+                <input type="password" class="input-field" placeholder="Enter your Password" required>
+                <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        var x=document.getElementById("logIn");
+        var y=document.getElementById("signup");
+        var z=document.getElementById("btn");
+        function login(){
+
+            }
+        function signup(){
+                
+            }
+    </script>
+</body>
+</html>

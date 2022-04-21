@@ -93,19 +93,10 @@ body{
 .check-box{
     margin: 30px 10px 30px 0;
 }
-span .log-in{
-    position: absolute;
-    color: rgb(61, 58, 58);
+span{
+    color: #777;
     font-size: 12px;
-    top: 128px;
-    position: absolute;
-
-}
-span .signUp{
-    position: absolute;
-    color: rgb(61, 58, 58);
-    font-size: 12px;
-    top: 227px;
+    bottom: 68px;
     position: absolute;
 
 }

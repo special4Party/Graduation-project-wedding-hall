@@ -84,7 +84,7 @@ body{
     padding: 10px 30px ;
     cursor: pointer;
     display: block;
-    margin:25px auto;
+    margin: auto;
     background: linear-gradient(to right,#71b7e6,#9b59b6);
     border-radius: 20px;
     border: none;
@@ -93,19 +93,10 @@ body{
 .check-box{
     margin: 30px 10px 30px 0;
 }
-span .log-in{
-    position: absolute;
-    color: rgb(61, 58, 58);
+span{
+    color: #777;
     font-size: 12px;
-    top: 128px;
-    position: absolute;
-
-}
-span .signUp{
-    position: absolute;
-    color: rgb(61, 58, 58);
-    font-size: 12px;
-    top: 227px;
+    bottom: 68px;
     position: absolute;
 
 }
