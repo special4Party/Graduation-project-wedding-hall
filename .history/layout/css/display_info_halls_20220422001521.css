@@ -69,8 +69,7 @@ div.one{
 header{
     top: -71px;
     left: 0;
-    padding: 6px 28px;
-    padding-top: 82px;
+    padding: 100px 85px;
     position: absolute;
     width: 100%;
     min-height: 29vh;
@@ -112,7 +111,7 @@ header ul li a:hover{
 }
 .textBox{
     width: 630px;
-    height: 300px;
+    height: 165px;
     padding: 20px;
     line-height: 1.7;
 }
@@ -128,17 +127,17 @@ p{
 img.wedding{
     width: 275px;
     height: 390px;
-    top: 145px;
+    top: 170px;
     right: 100px;
     position: relative;
+    padding-bottom: 30px;
     border-radius: 100px;
 }
 div.tow{
     width: 100%;
     position: relative;
-    left: 0px;
-    display: block;
-    background-color: rgb(140, 161, 154);
+    left: 90px;
+    height: 100%;
 }
 
 

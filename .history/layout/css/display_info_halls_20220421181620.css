@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+}
+section{
+    width: 80%;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+.accord-item{
+    background-color: rgba(207, 190, 164, 0.534);
+    border-radius: 20px;
+    margin-bottom:30px ;
+    padding: 20px;
+    box-shadow: 0 2px 20px rgb(245, 176, 98);
+}
+h2.title{
+    font-size: 26px;
+    color: rgb(54, 53, 53);
+    padding-bottom: 20px;
+    text-shadow: 0 2px 25px rgb(92, 69, 6);
+    align-items: center;
+}
+div.paragraph{
+    font-size:16px ;
+    color: rgb(50, 52, 54);
+}
+
+
+
+
+
+
+
+
+
