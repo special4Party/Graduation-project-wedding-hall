@@ -194,7 +194,7 @@ a:hover i{
 .attendence-list{
     width: 100%;
     padding: 10px 7px;
-    margin-top: 150px;
+    margin-top: 90px;
     background: var(--panel-color);
     border-radius: 20px;
     box-shadow: 0 2px 25px var(--shadw-color);
@@ -283,14 +283,15 @@ body.Dark .switch:before{
     background-color: #FFF;
 }
 body.Dark{
-    --primary-color: rgb(115 116 124 / 46%);
-    --second-color: #afa9a9;
-    --panel-color: rgba(62, 63, 65, 0.459);
-    --black-light-color: #eaeaef;
+    --primary-color:rgba(2, 2, 2, 0.459);
+    --second-color:#968f96;
+    --panel-color: rgba(62, 63, 65, 0.459);;
+    /* --text-color:rgb(228, 83, 83); */
+    --black-light-color:#23242b;      
     --title-color: rgba(8, 9, 10, 0.459);
-    --shadw-color: #ffffff;
-    --hover-color: #f7f3f7;
-    --table-colors: rgb(246, 244, 255);
-    --button-color: #060607;
+    --shadw-color:#ffffff;
+    --hover-color:#f7f3f7;
+    --table-colors:rgb(246, 244, 255);
+    --button-color:#060607;
 }
 

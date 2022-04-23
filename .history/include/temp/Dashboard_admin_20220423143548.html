@@ -133,20 +133,18 @@
             </div>
         </section>
 
-        <section class="attendence" id="owner-list">
+        <section class="attendence">
             <div class="attendence-list">
-                <h1>Owner Hall</h1>
+                <h1>Users list</h1>
                 <table class="table">
                     <thead>
                         <tr>
                             <th>ID</th>
                             <th>NAME</th>
                             <th>EMAIL</th>
-                            <th>license number</th>
+                            <th>Type</th>
                             <th>Date Joined</th>
-                            <th>Location</th>
                             <th>Visit</th>
-                            
                         </tr>
                     </thead>
                     <tbody>
@@ -156,7 +154,14 @@
                             <td>01</td>
                             <td>01</td>
                             <td>01</td>
-                            <td>amman</td>
+                            <td><button>View</button></td>
+                        </tr>
+                        <tr >
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
                             <td><button>View</button></td>
                         </tr>
                         <tr>
@@ -165,7 +170,6 @@
                             <td>01</td>
                             <td>01</td>
                             <td>01</td>
-                            <td>amman</td>
                             <td><button>View</button></td>
                         </tr>
                         <tr>
@@ -174,16 +178,6 @@
                             <td>01</td>
                             <td>01</td>
                             <td>01</td>
-                            <td>amman</td>
-                            <td><button>View</button></td>
-                        </tr>
-                        <tr>
-                            <td>01</td>
-                            <td>01</td>
-                            <td>01</td>
-                            <td>01</td>
-                            <td>01</td>
-                            <td>amman</td>
                             <td><button>View</button></td>
                         </tr>
                     </tbody>
@@ -191,18 +185,17 @@
             </div>
         </section>
 
-        <section class="attendence" id="customer-list">
+        <section class="attendence">
             <div class="attendence-list">
-                <h1>Customers list</h1>
+                <h1>Users list</h1>
                 <table class="table">
                     <thead>
                         <tr>
                             <th>ID</th>
                             <th>NAME</th>
                             <th>EMAIL</th>
-                            <th>Age</th>
+                            <th>Type</th>
                             <th>Date Joined</th>
-                            <th>Booking</th>
                             <th>Visit</th>
                         </tr>
                     </thead>
@@ -213,7 +206,14 @@
                             <td>01</td>
                             <td>01</td>
                             <td>01</td>
-                            <td>Queens halls</td>
+                            <td><button>View</button></td>
+                        </tr>
+                        <tr >
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
                             <td><button>View</button></td>
                         </tr>
                         <tr>
@@ -222,7 +222,6 @@
                             <td>01</td>
                             <td>01</td>
                             <td>01</td>
-                            <td>Queens halls</td>
                             <td><button>View</button></td>
                         </tr>
                         <tr>
@@ -231,22 +230,13 @@
                             <td>01</td>
                             <td>01</td>
                             <td>01</td>
-                            <td>Queens halls</td>
-                            <td><button>View</button></td>
-                        </tr>
-                        <tr>
-                            <td>01</td>
-                            <td>01</td>
-                            <td>01</td>
-                            <td>01</td>
-                            <td>01</td>
-                            <td>Queens halls</td>
                             <td><button>View</button></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </section>
+
 
     </section>
 </div>
@@ -254,16 +244,16 @@
 <!-- /include/temp/halls.html -->
 <script>
     function btnClicked1(){
-        document.location.href="/include/temp/requests.html";
+        document.location.href="#";
     }
     function btnClicked2(){
-        document.location.href="#owner-list";
+        document.location.href="#owner";
     }
     function btnClicked3(){
-        document.location.href="#customer-list";
+        document.location.href="#customer";
     }
     function btnClicked4(){
-        document.location.href="/include/temp/quistions.html";
+        document.location.href="#quistions";
     }
 </script>
 <script src="/layout/js/dashboard.js"></script>
