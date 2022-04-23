@@ -45,17 +45,11 @@ header{
     border: 1px solid rgb(255, 255, 255);
     
 }
-header a.logo{
-    float: left;
-    font-size: 40px;
+header .logo{
+    color: rgb(99, 6, 6);
+    font-weight: 700;
     text-decoration: none;
-    text-transform: uppercase;
-    color: #bc65c7;
-}
-header .logo span{
-    float: right;
-    color: rgb(51, 14, 136);
-    font-size: 30px;
+    font-size: 2em;
 }
 header ul{
     display: flex;
@@ -147,10 +141,10 @@ table tr td button:hover{
 }
 @keyframes animate {
     0%,100%{
-        transform: translateY(0px);
+        transform: translateY(50px);
     }
     50%{
-        transform: translateY(90px);
+        transform: translateY(100px);
     }
 }
 
