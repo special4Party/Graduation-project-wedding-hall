@@ -1,0 +1,106 @@
+:root
+{
+    --grey: #ECF0F3;
+    --blue: #027BC7;
+    --darkGrey: #E4E8EB;
+}
+*
+{
+    box-sizing: border-box;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+body
+{
+    background-color: var(--grey);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.card
+{
+    background-color: var(--grey);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #ccc, -3px -3px 5px #fff;
+    color: var(--blue);
+    padding-top: 30px;
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+.card .level
+{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: var(--grey);
+    background-color: var(--blue);
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 3px 8px;
+}
+.card .picture
+{
+    box-shadow: 2px 2px 4px #ccc, -3px -3px 5px #fff;
+    border-radius: 50%;
+    padding: 4px;
+    width: 120px;
+}
+.card h2
+{
+    margin: 10px 0px;
+}
+.card p
+{
+    font-size: 12px;
+    line-height: 1.4;
+}
+.buttons
+{
+    margin: 30px 0px;
+}
+.buttons button
+{
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    color: var(--grey);
+    border-radius: 3px;
+    padding: 10px 25px;
+}
+.buttons .secondary
+{
+    background-color: var(--grey);
+    color: var(--blue);    
+}
+.skills
+{
+    text-align: left;
+    padding: 20px;
+    background-color: var(--darkGrey);
+}
+.skills h4
+{
+    margin: 5px 0px;
+}
+.skills ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.skills ul li
+{
+    border: 1px solid var(--blue);
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 8px;
+    margin: 0px 5px 10px 0px;
+}
+.skills ul li:hover
+{
+    background-color: var(--blue);
+    color: var(--grey);
+}

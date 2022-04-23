@@ -6,7 +6,7 @@ margin:0;
 body
 {
 overflow-x:hidden;
-font-family:cursive;
+font-family:'PT Sans', sans-serif;
 }
 .section-container
 {
@@ -26,8 +26,7 @@ background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
 border-radius: 30px;
-;
-box-shadow: 2px 2px 20px rgb(235, 174, 61);
+box-shadow: 0 2px 30px rgba(238, 171, 46, 0.2);
 }
 .section-container .columns.content .content-container
 {
@@ -38,7 +37,6 @@ padding:40px 50px;
 font-weight:700;
 font-size:25px;
 margin-bottom:20px;
-color: #f18a41;
 }
 .section-container .columns.content .content-container p
 {
@@ -47,7 +45,6 @@ font-size:16px;
 margin-bottom:20px;
 margin-bottom:15px;
 text-align:justify;
-color: #6c3505;
 }
 @media screen and (max-width:767px)
 {
@@ -73,7 +70,7 @@ padding:20px 35px;
 }
 .section-container .columns.content .content-container h5
 {
-margin-bottom:10px;
+margin-bottom:5px;
 }
 }
 
