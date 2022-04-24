@@ -80,7 +80,6 @@ form.secActive .form.first{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 3px 10px;
 }
 form .fields .input-field{
     display: flex;
@@ -126,7 +125,7 @@ form .fields .input-field{
     outline: none;
     color: #fff;
     border-radius: 5px;
-    margin: 10px 70px;
+    margin: 25px 0;
     background-color: #9b63c5;
     transition: all 0.3s linear;
     cursor: pointer;

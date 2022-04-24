@@ -91,6 +91,7 @@ form .fields .input-field{
 .input-field label{
     font-size: 12px;
     font-weight: bold;
+    padding: 10px 0;
     color: #3a383c;
 }
 .input-field input, select{

@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Book Page</title>
-    <link rel="stylesheet" href="/layout/css/booking.css">
-    <link rel="stylesheet" href="/layout/css/normalize.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="/layout/css/test.css"> 
+    <!----===== Iconscout CSS ===== -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-  </head>
-  <body>
+
+    <title>Booking Form </title> 
+</head>
+<body>
     <div class="container">
         <header>Booking Form</header>
 
@@ -92,6 +94,22 @@
                             <label>Number of invitees</label>
                             <input type="number" placeholder="Enter Number of invitees" required>
                         </div>
+
+                        <!-- <div class="input-field">
+                            <label>Party Month/year</label>
+                            <input type="month" placeholder="Enter Party Month/year" required>
+                        </div> -->
+
+                        
+                        <!-- <div class="input-field">
+                            <label>party week</label>
+                            <input type="week" placeholder="Enter your week party" required>
+                        </div> -->
+
+                        <!-- <div class="input-field">
+                            <label>Expiry Date</label>
+                            <input type="date" placeholder="Enter expiry date" required>
+                        </div> -->
                     </div>
 
                     <button class="nextBtn">
@@ -117,29 +135,49 @@
                         </div>
 
                         <div class="input-field">
-                            <label>credit card number :</label>
-                            <input type="number" placeholder="1111-2222-3333-4444" required>
+                            <label>State</label>
+                            <input type="text" placeholder="Enter your state" required>
                         </div>
 
                         <div class="input-field">
-                            <label>exp month :</label>
-                            <input type="number" placeholder="1" required>
+                            <label>District</label>
+                            <input type="text" placeholder="Enter your district" required>
                         </div>
 
                         <div class="input-field">
-                            <label>exp year :</label>
-                            <input type="number" placeholder="2022" required>
+                            <label>Block Number</label>
+                            <input type="number" placeholder="Enter block number" required>
                         </div>
 
                         <div class="input-field">
-                            <label>CVV :</label>
-                            <input type="text" placeholder="1234" required>
+                            <label>Ward Number</label>
+                            <input type="number" placeholder="Enter ward number" required>
                         </div>
                     </div>
                 </div>
 
                 <div class="details family">
-                    
+                    <span class="title">Family Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Father Name</label>
+                            <input type="text" placeholder="Enter father name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mother Name</label>
+                            <input type="text" placeholder="Enter mother name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Grandfather</label>
+                            <input type="text" placeholder="Enter grandfther name" required>
+                        </div>
+
+                        
+                    </div>
+<!-- -------------------------------------------- -->
                     <div class="buttons">
                         <div class="backBtn">
                             <i class="uil uil-navigator"></i>
@@ -150,10 +188,7 @@
                             <span class="btnText">Submit</span>
                             <i class="uil uil-navigator"></i>
                         </button>
-                    </div> 
-                </div>
-<!-- -------------------------------------------- -->
-                    
+                    </div>
                 </div> 
             </div>
         </form>
@@ -181,3 +216,4 @@ backBtn.addEventListener("click", () => form.classList.remove('secActive'));
     <!--<script src="script.js"></script>-->
 </body>
 </html>
+
