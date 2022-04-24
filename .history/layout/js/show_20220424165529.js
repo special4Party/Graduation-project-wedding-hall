@@ -24,12 +24,10 @@ document.querySelectorAll('.row .colum-4').forEach(product =>{
 });
 
 
-function go1(){
-  document.location.href="/include/temp/booking.html";
+function go(){
+  document.location.href="/include/temp/request_owner.html";
 }
-function go2(){
-  document.location.href="/include/temp/hall_profile.html";
-}
+
 
 
 
