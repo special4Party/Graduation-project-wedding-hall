@@ -74,14 +74,14 @@ form .form-input img{
 	margin-top: 24px;
 	width: 100%;
     padding: 0 35px;
-	color:rgb(39, 34, 34);
+	color:black;
 }
 .table-data p{
     text-align: center;
 }
  .table-data > div {
 	border-radius: 30px;
-	background: #c7a1eb8f;
+	background: #9737f18f;
 	padding: 20px;
 	overflow-x: auto;
 }
@@ -113,8 +113,7 @@ form .form-input img{
 .table-data .order table th {
 	padding: 7px;
 	font-size: 15px;
-    color: rgb(153, 4, 199);
-    font-weight: bold;
+    color: rgb(156, 67, 216);
 	text-align: center;
 	border-bottom: 1px solid rgb(49, 45, 45);
 }
@@ -137,7 +136,7 @@ form .form-input img{
 	object-fit: cover;
 }
 .table-data .order table tbody tr:hover {
-	background: rgba(185, 140, 226, 0.534);
+	background: rgba(165, 183, 233, 0.658);
 }
 .table-data .order table tr td button.status {
 	font-size: 13px;
