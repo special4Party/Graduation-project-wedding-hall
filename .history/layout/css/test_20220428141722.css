@@ -9,7 +9,7 @@ body{
 .search-bar{
     padding: 40px 80px;
     position: relative;
-    margin: 40px 65px;
+    margin: 40px 35px;
 }
 form {
 	max-width: 400px;
@@ -45,27 +45,7 @@ form .form-input button {
 	border-radius: 0 36px 36px 0;
 	cursor: pointer;
 }
-form .form-input h4{
-    float: right;
-    text-transform: uppercase;
-    left: 650px;
-    color: #9e15aa;
-    position: relative;
-}
 
-form .form-input h4>span{
-float: right;
-color: rgb(65, 68, 197);
-font-size: 30px;
-}
-form .form-input img{
-    width: 110px;
-    height: 100px;
-    border-radius: 50%;
-    position: relative;
-    margin-left: 20px;
-    left: 930px;
-}
 
  .table-data {
 	display: flex;
@@ -75,9 +55,6 @@ form .form-input img{
 	width: 100%;
     padding: 0 35px;
 	color:black;
-}
-.table-data p{
-    text-align: center;
 }
  .table-data > div {
 	border-radius: 30px;
@@ -122,13 +99,13 @@ form .form-input img{
     text-align: center;
     justify-content: center;
 }
- /* .table-data .order table tr td:first-child {
+ .table-data .order table tr td:first-child {
 	display: flex;
 	align-items: center;
     text-align: center;
 	grid-gap: 12px;
 	padding-left: 6px;
-} */
+}
 .table-data .order table td img {
 	width: 45px;
 	height: 45px;
@@ -136,32 +113,20 @@ form .form-input img{
 	object-fit: cover;
 }
 .table-data .order table tbody tr:hover {
-	background: rgba(165, 183, 233, 0.658);
+	background: rgb(212, 165, 233);
 }
-.table-data .order table tr td button.status {
+.table-data .order table tr td .status {
 	font-size: 13px;
 	padding: 6px 16px;
 	color:rgb(34, 32, 32);
 	font-weight: 700;
-   
 }
- .table-data .order table tr td button.status.Acceptance {
+ .table-data .order table tr td .status.completed {
 	background: rgb(50, 139, 65);
-    color: rgb(255, 255, 255);
-    border-radius: 20px; 
-    border: none;
-    cursor: pointer;
 }
-.table-data .order table tr td button.status.Reject{
-	background:rgb(240, 114, 110);
-    color: rgb(255, 255, 255);
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
+.table-data .order table tr td .status.process {
+	background:rgb(224, 224, 136);
 }
-
-.table-data .order table tr td button.status.Acceptance:hover,
-.table-data .order table tr td button.status.Reject:hover{
-    box-shadow: 3px 3px 25px #981db1fd;
+.table-data .order table tr td .status.pending {
+	background: rgb(230, 69, 57);
 }
-

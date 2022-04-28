@@ -143,25 +143,15 @@ form .form-input img{
 	padding: 6px 16px;
 	color:rgb(34, 32, 32);
 	font-weight: 700;
-   
+    outline: none;
 }
- .table-data .order table tr td button.status.Acceptance {
+ .table-data .order table tr td .status.Acceptance {
 	background: rgb(50, 139, 65);
     color: rgb(255, 255, 255);
-    border-radius: 20px; 
-    border: none;
-    cursor: pointer;
+    border-radius: 20px;
 }
-.table-data .order table tr td button.status.Reject{
+.table-data .order table tr td .status.Reject{
 	background:rgb(240, 114, 110);
     color: rgb(255, 255, 255);
     border-radius: 20px;
-    border: none;
-    cursor: pointer;
 }
-
-.table-data .order table tr td button.status.Acceptance:hover,
-.table-data .order table tr td button.status.Reject:hover{
-    box-shadow: 3px 3px 25px #981db1fd;
-}
-

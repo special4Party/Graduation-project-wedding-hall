@@ -159,9 +159,3 @@ form .form-input img{
     border: none;
     cursor: pointer;
 }
-
-.table-data .order table tr td button.status.Acceptance:hover,
-.table-data .order table tr td button.status.Reject:hover{
-    box-shadow: 3px 3px 25px #981db1fd;
-}
-

@@ -150,18 +150,10 @@ form .form-input img{
     color: rgb(255, 255, 255);
     border-radius: 20px; 
     border: none;
-    cursor: pointer;
 }
 .table-data .order table tr td button.status.Reject{
 	background:rgb(240, 114, 110);
     color: rgb(255, 255, 255);
     border-radius: 20px;
     border: none;
-    cursor: pointer;
 }
-
-.table-data .order table tr td button.status.Acceptance:hover,
-.table-data .order table tr td button.status.Reject:hover{
-    box-shadow: 3px 3px 25px #981db1fd;
-}
-

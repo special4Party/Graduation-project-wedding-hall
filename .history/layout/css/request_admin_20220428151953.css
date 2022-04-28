@@ -9,7 +9,7 @@ body{
 .search-bar{
     padding: 40px 80px;
     position: relative;
-    margin: 40px 65px;
+    margin: 40px 35px;
 }
 form {
 	max-width: 400px;
@@ -48,23 +48,21 @@ form .form-input button {
 form .form-input h4{
     float: right;
     text-transform: uppercase;
-    left: 650px;
-    color: #9e15aa;
-    position: relative;
+    left: 70px;
 }
 
 form .form-input h4>span{
 float: right;
-color: rgb(65, 68, 197);
-font-size: 30px;
+color: rgb(51, 14, 136);
+font-size: 40px;
 }
 form .form-input img{
-    width: 110px;
+    width: 130px;
     height: 100px;
     border-radius: 50%;
     position: relative;
-    margin-left: 20px;
-    left: 930px;
+    margin-left: 0;
+    left: 700px;
 }
 
  .table-data {
@@ -138,30 +136,19 @@ form .form-input img{
 .table-data .order table tbody tr:hover {
 	background: rgba(165, 183, 233, 0.658);
 }
-.table-data .order table tr td button.status {
+.table-data .order table tr td .status {
 	font-size: 13px;
 	padding: 6px 16px;
 	color:rgb(34, 32, 32);
 	font-weight: 700;
-   
 }
- .table-data .order table tr td button.status.Acceptance {
+ .table-data .order table tr td .status.Acceptance {
 	background: rgb(50, 139, 65);
     color: rgb(255, 255, 255);
-    border-radius: 20px; 
-    border: none;
-    cursor: pointer;
+    border-radius: 20px;
 }
-.table-data .order table tr td button.status.Reject{
+.table-data .order table tr td .status.Reject{
 	background:rgb(240, 114, 110);
     color: rgb(255, 255, 255);
     border-radius: 20px;
-    border: none;
-    cursor: pointer;
 }
-
-.table-data .order table tr td button.status.Acceptance:hover,
-.table-data .order table tr td button.status.Reject:hover{
-    box-shadow: 3px 3px 25px #981db1fd;
-}
-
