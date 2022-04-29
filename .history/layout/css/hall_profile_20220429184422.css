@@ -3,81 +3,73 @@
     padding: 0;
     font-family: monospace;
     box-sizing: border-box;
-}
-
-h1 {
+  }
+  
+  h1 {
     color: #6b3c89;
-    font-weight:bold;
-    font-size: 2rem;
+    font-weight: 600;
+    font-size: 3rem;
     opacity: 0.8;
-    padding-top: 15px;
-}
-h2,
-p {
+  }
+  h2,
+  p {
     color: #64586e;
     font-weight: 500;
     opacity: 0.8;
-}
-h2{
-    font-size: 2rem ;
-}
-h3 {
+  }
+  
+  h3 {
     color: #6b3c89;
     font-weight: 600;
     opacity: 0.8;
-}
-
-main {
+  }
+  
+  main {
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
-    background: linear-gradient(to right top, #9e97a5, #b826f545);
+    background: linear-gradient(to right top, #7d7e8b, #c51ffb5c);
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.glass {
+  }
+  
+  .glass {
     background: white;
     min-height: 80vh;
     width: 60%;
     background: linear-gradient(
-        to right bottom,
-        rgba(255, 255, 255, 0.7),
-        rgba(255, 255, 255, 0.3)
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
     );
     border-radius: 2rem;
     z-index: 2;
     backdrop-filter: blur(2rem);
     display: flex;
-}
-.circle1,
-.circle2,
-.circle3 {
+  }
+  .circle1,
+  .circle2 {
     background: white;
     background: linear-gradient(
-        to right bottom,
-        rgba(255, 255, 255, 0.8),
-        rgba(255, 255, 255, 0.3)
+      to right bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3)
     );
     height: 20rem;
     width: 20rem;
     position: absolute;
     border-radius: 50%;
-}
-
-.circle1 {
-    top: 3%;
-    right: 5%;
-}
-.circle2 {
-    bottom: -210px;
-    left: 7%;
-}
-.circle3 {
-    left: 72%;
-    top: 970px;
-}
-.dashboard {
+  }
+  
+  .circle1 {
+    top: 5%;
+    right: 15%;
+  }
+  .circle2 {
+    bottom: 5%;
+    left: 10%;
+  }
+  .dashboard {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -85,80 +77,49 @@ main {
     justify-content: space-evenly;
     text-align: center;
     background: linear-gradient(
-        to right bottom,
-        rgba(255, 255, 255, 0.7),
-        rgba(255, 255, 255, 0.3)
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
     );
     border-radius: 5rem;
-}
-/* GAMES */
-.status {
+  }
+  /* GAMES */
+  .status {
     margin-bottom: 3rem;
-}
-
-.status input {
+  }
+  
+  .status input {
     background: linear-gradient(
-        to right bottom,
-        rgba(255, 255, 255, 0.7),
-        rgba(255, 255, 255, 0.3)
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
     );
     border: none;
     width: 50%;
     padding: 0.5rem;
     border-radius: 2rem;
-}
-
-.games {
+  }
+  
+  .games {
     margin: 1rem;
     display: flex;
     flex: 2;
     flex-direction: column;
     justify-content: flex-start;
-}
-
-.card {
-    /* display: flex; */
+  }
+  
+  .card {
+    display: flex;
     background: linear-gradient( to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5) );
     border-radius: 1rem;
     margin: 0rem 0rem;
     padding: 1rem;
     box-shadow: 6px 6px 20px rgb(122 122 122 / 21%);
     justify-content: space-between;
-}
-
-.card-info {
+  }
+ 
+  .card-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;
-    
-}
-table th{
-    border-bottom: 1px solid rgb(39, 36, 36);
-}
-table td{
-    border: 3px dotted rgb(158, 7, 100);
-    padding: 15px 10px;
-}
-
-.our-work{
-    overflow: hidden;
-}
-.our-work > div{  /* اشارة الاكبر معناها الديف اللي جواه فورا اول ابن له يعني */
-    float: left;
-    width: 33.3333%;
-    margin-bottom: 10px;
-}
-.our-work > div img{
-    width: 92%;
-    margin: 10px;
-    padding:3px ;
-    border-radius: 10%;
-    background-color: rgb(111, 66, 141);
-    border: 1px solid rgb(80, 12, 100);
-    box-shadow: 2px 3px 7px rgb(116, 68, 126);
-}
-
-
-
-
+  }

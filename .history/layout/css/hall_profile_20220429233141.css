@@ -30,7 +30,7 @@ h3 {
 main {
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
-    background: linear-gradient(to right top, #9e97a5, #b826f545);
+    background: linear-gradient(to right top, #7d7e8b, #c51ffb5c);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,8 +51,7 @@ main {
     display: flex;
 }
 .circle1,
-.circle2,
-.circle3 {
+.circle2 {
     background: white;
     background: linear-gradient(
         to right bottom,
@@ -74,8 +73,8 @@ main {
     left: 7%;
 }
 .circle3 {
-    left: 72%;
-    top: 970px;
+    bottom: -210px;
+    left: 7%;
 }
 .dashboard {
     flex: 1;
