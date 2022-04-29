@@ -162,8 +162,8 @@ table td{
 }
 button.btn:hover{
     background-color: rgba(126, 252, 0, 0.705);
-    color: rgba(62, 63, 60, 0.966);
-    transition: 0.3s;
+    color: rgba(30, 31, 29, 0.966);
+    transition: 0.4s;
 }
 .our-work{
     overflow: hidden;

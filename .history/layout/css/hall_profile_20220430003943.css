@@ -137,6 +137,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    
 }
 table th{
     border-bottom: 1px solid rgb(39, 36, 36);
@@ -158,12 +159,11 @@ table td{
     font-family: cursive;
     background-color: rgba(181, 235, 128, 0.815);
     cursor: pointer;
-    margin-top: 10px;
 }
 button.btn:hover{
     background-color: rgba(126, 252, 0, 0.705);
-    color: rgba(62, 63, 60, 0.966);
-    transition: 0.3s;
+    color: rgba(30, 31, 29, 0.966);
+    transition: 0.4s;
 }
 .our-work{
     overflow: hidden;
