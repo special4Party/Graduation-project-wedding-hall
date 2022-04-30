@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 830px;
+    background-color: antiquewhite;
+    
+}
+main{
+    width: 500px;
+    height: 800px;
+    background-color: #cccccccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

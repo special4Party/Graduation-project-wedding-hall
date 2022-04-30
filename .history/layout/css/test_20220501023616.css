@@ -7,7 +7,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-color: rgba(97, 76, 97, 0.842);
+    background-color: rgb(56, 12, 56);
     
 }
 main{
@@ -38,9 +38,6 @@ p{
     margin: 20px auto;
     font-size: 20px;
     line-height: 35px;
-}
-.email{
-    color: #5d2eb3;
 }
 div{
     padding: 20px;
