@@ -31,11 +31,11 @@ background-color:white;
     color:rgb(61, 22, 151);
 }
 
-.header .slider .intro {
+
+.header .slider .container .intro {
   height: 500px;
   padding: 250px;
   text-align: center;
-
 }
 
 .header .slider .intro button{
