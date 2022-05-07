@@ -44,12 +44,12 @@ background-color:white;
     margin-top: 40px;
     font-size: 17px;
     border: 2px solid rgb(123, 9, 151);
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 15px;
 }
 .header .slider .intro button:hover{
     background-color: rgb(206, 176, 204);
-   
+    font-weight: bold;
 }
 
 .header .slider .intro h2{
@@ -496,7 +496,7 @@ padding-bottom: 30px;
 }
 
 .portfulio .our-work{
-    overflow: hidden;
+overflow: hidden;
 }
 
 .portfulio .our-work > div{  /* اشارة الاكبر معناها الديف اللي جواه فورا اول ابن له يعني */

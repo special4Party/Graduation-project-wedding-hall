@@ -138,7 +138,7 @@ background-color: #dddadc;
 .features .feat p{
     line-height: 1.7;
     color: rgb(156, 107, 153);
-    text-align:left;
+    text-align:center;
     padding: 0px 30px 0px 0px;
 }
 /* End features */
@@ -496,7 +496,7 @@ padding-bottom: 30px;
 }
 
 .portfulio .our-work{
-    overflow: hidden;
+overflow: hidden;
 }
 
 .portfulio .our-work > div{  /* اشارة الاكبر معناها الديف اللي جواه فورا اول ابن له يعني */
