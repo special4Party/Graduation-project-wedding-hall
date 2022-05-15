@@ -26,7 +26,8 @@ width:50%;
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
-border-radius: 30px;
+border-radius: var(--y);
+;
 box-shadow: 2px 2px 20px rgb(235, 174, 61);
 }
 .section-container .columns.content .content-container

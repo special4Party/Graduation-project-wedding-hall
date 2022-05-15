@@ -21,7 +21,6 @@
                 <img src="/images/img/google-removebg-preview.png" >
                 <img src="/images/img/ista-removebg-preview.png" >
             </div> -->
-            <!--  -->
             <form id="logIn" class="input-group">
                 <input type="email" name="email-owner-login"  class="input-field" placeholder="Enter your Email" required>
                 <input type="password" name="password-owner-login"  class="input-field" placeholder="Enter your Password" required>
@@ -29,7 +28,6 @@
                 <!-- <input type="checkbox" id="click" class="cli"> -->
                 <button type="submit" name="btn-login-owner" value="btn-login-owner" class="submit-btn" >Log in</button>
             </form>
-            <!--  -->
             <!-- <div class="contant">
                 <div class="header">
                     <h2>Thank's</h2>

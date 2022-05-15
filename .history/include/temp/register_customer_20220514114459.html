@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/layout/css/register-customer.css">
-    <!-- <script src="https://kit.fontawesome.com/92219ffc4f.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="/layout/css/owner_regis.css">
+    <script src="https://kit.fontawesome.com/92219ffc4f.js" crossorigin="anonymous"></script>
     <title>Register and log in owner halls</title>
 </head>
 <body>
     <div class="hero">
         <div class="form-box">
             <div class="button-box">
-                <div id="btn"></div>
+                <div id="btn">
+
+                </div>
                 <button type="button" class="toggle-btn" onclick="login()">Log in</button>
                 <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
             </div>
@@ -21,15 +23,11 @@
             </div> -->
             <form id="logIn" class="input-group">
                 <input type="email" name="email-customer-login"  class="input-field" placeholder="Enter your Email" required>
-
                 <input type="password" name="password-customer-login"  class="input-field" placeholder="Enter your Password" required>
-
                 <input type="checkbox" name="remember-password-customer-login" value="remember-password-customer-login" class="check-box"><span class="log-in">Rmember password</span>
-
                 <!-- <input type="checkbox" id="click" class="cli"> -->
                 <button type="submit" name="btn-login-customer" value="btn-login-customer" class="submit-btn" >Log in</button>
             </form>
-           
             <!-- <div class="contant">
                 <div class="header">
                     <h2>Thank's</h2>
@@ -65,7 +63,7 @@
 
             </form>
             <!-- --------------------------- -->
-           
+            
         </div>
     </div>
    

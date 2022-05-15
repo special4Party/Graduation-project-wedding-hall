@@ -57,7 +57,7 @@ body{
 .container-body{
         width: 1170px;
         margin: auto;
-        height: 270px;
+        height: 2700px;
 }
 .content{
     text-align: center;
@@ -74,6 +74,7 @@ body{
     padding: 10px 30px;
     border: 2px solid #a532d3;
     background: transparent;
+    text-decoration: none;
     text-align: center;
     font-weight: bold;
     margin: 40px 25px;

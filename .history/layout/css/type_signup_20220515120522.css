@@ -86,8 +86,8 @@ body{
 }
 .btn a{
     color: #ae03b4b6;
-    text-decoration: none;
-    text-decoration-line: none;
+    /* text-decoration: none;
+    text-decoration-line: none; */
 }
 
 

@@ -4,7 +4,7 @@
     font-family: cursive;
 }
 body{
-    user-select: none;
+    /* user-select: none; */
 }
 .hero{
     height: 100%;
@@ -92,6 +92,7 @@ span.signUp{
     background: linear-gradient(to right,#71b7e6,#9b59b6);
     border-radius: 20px;
     border: none;
+    
 }
 .check-box{
     margin: 20px 10px 20px 0;
