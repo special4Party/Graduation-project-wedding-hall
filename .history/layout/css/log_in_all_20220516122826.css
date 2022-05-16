@@ -26,16 +26,14 @@ body{
 }
 .button-box{
     width: 110px;
-    margin: 0;
-    top: 55px;
-    left: 130px;
+    margin: 20px 120px;
     position: relative;
     box-shadow: 0 0 20px 9px #ff61241f;
     border-radius: 30px;
 }
 .toggle-btn{
     padding: 15px 20px;
-    top: 0;
+    cursor: pointer;
     background: transparent;
     border: 0;
     outline: none;
@@ -52,7 +50,7 @@ body{
     transition: 0.5s ;
 }
 .input-group{
-    top: 160px;
+    top: 85px;
     position: absolute;
     width: 280px;
     transition: 0.5s;

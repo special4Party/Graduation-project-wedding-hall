@@ -35,14 +35,15 @@ body{
 }
 .toggle-btn{
     padding: 15px 20px;
-    top: 0;
+    top: 55px;
+    cursor: pointer;
     background: transparent;
     border: 0;
     outline: none;
     position: relative;
 }
 #btn{
-    top: 0;
+    top: 55px;
     left: 0;
     position: absolute;
     width: 110px;
