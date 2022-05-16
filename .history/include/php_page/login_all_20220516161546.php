@@ -14,7 +14,7 @@
                 <div id="btn"></div>
                 <button type="button" class="toggle-btn">Log in Page</button>
             </div>
-            <form  id="logIn" class="input-group">
+            <form action="php_page/check.php" id="logIn" class="input-group">
                 <input type="email" name="email-all-login"  class="input-field" placeholder="Enter your Email" required>
 
                 <input type="password" name="password-all-login"  class="input-field" placeholder="Enter your Password" required>
