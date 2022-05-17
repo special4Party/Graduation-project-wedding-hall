@@ -35,8 +35,6 @@ if(!empty($fullName)|| !empty($email) || !empty($password) || !empty($gender) ||
         }else{
             echo "this email already exist";
         }
-        $stmt->close();
-        $connection->close();
     }
 }else{
     echo "All field are requered";

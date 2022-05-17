@@ -31,12 +31,7 @@ if(!empty($fullName)|| !empty($email) || !empty($password) || !empty($gender) ||
             $stmt=$connection->prepare($INSERT);
             $stmt->bind_param("sssss",$fullName,$email,$password,$gender,$birthday_date);
             $stmt->execute();
-            echo"new record inserted succesfully";
-        }else{
-            echo "this email already exist";
         }
-        $stmt->close();
-        $connection->close();
     }
 }else{
     echo "All field are requered";
