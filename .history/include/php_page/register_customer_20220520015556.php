@@ -4,6 +4,9 @@ require_once("../../conn.php");
 
 if(isset($_POST["btn_signup_customer_signup"])){
 
+
+  
+  
         $gender=$_POST["gender_customer_signup"];
         $age= $_POST["age_customer_signup"];
         $repet= $_POST["repet_password_customer_signup"];
@@ -13,32 +16,46 @@ if(isset($_POST["btn_signup_customer_signup"])){
 
         $queryyy ="INSERT INTO customer_register ( full_name, email, password, gender, birthday_date) 
                 VALUES ( '$name', '$email', '$password', '$gender', '$age');";
-        $stm='';
+
         if ($con->query($queryyy) === TRUE) {
-            $stm= "New record created successfully";
+            echo "New record created successfully";
              
         } else {
-            echo "Error: " . $con->error; 
+            echo "Error: " . $con->error;
+           
         }
+
+
+
+
+
 }
+
+
+
 ?>
+
+
 
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../../layout/css/register-customer.css">
-    <!-- <script src="https://kit.fontawesome.com/92219ffc4f.js" crossorigin="anonymous"></script> -->
-    <title>Register and log in owner halls</title>
+    <script src="https://kit.fontawesome.com/92219ffc4f.js" crossorigin="anonymous"></script>
+    <title>Register and log in customer</title>
 </head>
 
 <body>
     <div class="hero">
         <div class="form-box">
             <div class="button-box">
-                <div id="btn"></div>
+                <div id="btn">
+
+                </div>
                 <button type="button" class="toggle-btn" onclick="login()">Log in</button>
                 <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
             </div>
@@ -50,19 +67,14 @@ if(isset($_POST["btn_signup_customer_signup"])){
             <form id="logIn" class="input-group" action="" method="post">
                 <input type="email" name="email_customer_login" class="input-field" placeholder="Enter your Email"
                     required>
-
                 <input type="password" name="password_customer_login" class="input-field"
                     placeholder="Enter your Password" required>
-
-                <input type="checkbox" name="remember_password_customer_login" value="remember-password-customer-login"
+                <input type="checkbox" name="remember-password-customer-login" value="remember-password-customer-login"
                     class="check-box"><span class="log-in">Rmember password</span>
-
                 <!-- <input type="checkbox" id="click" class="cli"> -->
-                <button type="submit" name="btn_login_customer" value="btn-login-customer" class="submit-btn">Log
+                <button type="submit" name="btn-login-customer" value="btn-login-customer" class="submit-btn">Log
                     in</button>
-
             </form>
-
             <!-- <div class="contant">
                 <div class="header">
                     <h2>Thank's</h2>
@@ -102,9 +114,7 @@ if(isset($_POST["btn_signup_customer_signup"])){
 
                 <button type="submit" name="btn_signup_customer_signup" class="submit-btn">sign
                     Up</button>
-                <?php
-                        echo $stm;
-                ?>
+
             </form>
             <!-- --------------------------- -->
 

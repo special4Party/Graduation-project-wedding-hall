@@ -13,9 +13,9 @@ if(isset($_POST["btn_signup_customer_signup"])){
 
         $queryyy ="INSERT INTO customer_register ( full_name, email, password, gender, birthday_date) 
                 VALUES ( '$name', '$email', '$password', '$gender', '$age');";
-        $stm='';
+        
         if ($con->query($queryyy) === TRUE) {
-            $stm= "New record created successfully";
+            echo "New record created successfully";
              
         } else {
             echo "Error: " . $con->error; 
@@ -60,7 +60,6 @@ if(isset($_POST["btn_signup_customer_signup"])){
                 <!-- <input type="checkbox" id="click" class="cli"> -->
                 <button type="submit" name="btn_login_customer" value="btn-login-customer" class="submit-btn">Log
                     in</button>
-
             </form>
 
             <!-- <div class="contant">
@@ -102,9 +101,7 @@ if(isset($_POST["btn_signup_customer_signup"])){
 
                 <button type="submit" name="btn_signup_customer_signup" class="submit-btn">sign
                     Up</button>
-                <?php
-                        echo $stm;
-                ?>
+
             </form>
             <!-- --------------------------- -->
 

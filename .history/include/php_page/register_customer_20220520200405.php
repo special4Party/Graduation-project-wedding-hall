@@ -104,7 +104,7 @@ if(isset($_POST["btn_signup_customer_signup"])){
                     Up</button>
                 <?php
                         echo $stm;
-                ?>
+                    ?>
             </form>
             <!-- --------------------------- -->
 

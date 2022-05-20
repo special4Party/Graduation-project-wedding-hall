@@ -2,43 +2,39 @@
 
 require_once("../../conn.php");
 
-if(isset($_POST["btn_signup_customer_signup"])){
+if(isset($_POST["btn-login-customer"])){
 
-        $gender=$_POST["gender_customer_signup"];
-        $age= $_POST["age_customer_signup"];
-        $repet= $_POST["repet_password_customer_signup"];
-        $password= $_POST["password_customer_signup"];
-        $email= $_POST["email_customer_signup"];
-        $name=$_POST["name_customer_signup"];
+    echo 'hhhhhhhhhhhh';
 
-        $queryyy ="INSERT INTO customer_register ( full_name, email, password, gender, birthday_date) 
-                VALUES ( '$name', '$email', '$password', '$gender', '$age');";
-        $stm='';
-        if ($con->query($queryyy) === TRUE) {
-            $stm= "New record created successfully";
-             
-        } else {
-            echo "Error: " . $con->error; 
-        }
+
+
 }
+
+
+
 ?>
+
+
 
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../../layout/css/register-customer.css">
-    <!-- <script src="https://kit.fontawesome.com/92219ffc4f.js" crossorigin="anonymous"></script> -->
-    <title>Register and log in owner halls</title>
+    <script src="https://kit.fontawesome.com/92219ffc4f.js" crossorigin="anonymous"></script>
+    <title>Register and log in customer</title>
 </head>
 
 <body>
     <div class="hero">
         <div class="form-box">
             <div class="button-box">
-                <div id="btn"></div>
+                <div id="btn">
+
+                </div>
                 <button type="button" class="toggle-btn" onclick="login()">Log in</button>
                 <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
             </div>
@@ -47,22 +43,17 @@ if(isset($_POST["btn_signup_customer_signup"])){
                 <img src="/images/img/google-removebg-preview.png" >
                 <img src="/images/img/ista-removebg-preview.png" >
             </div> -->
-            <form id="logIn" class="input-group" action="" method="post">
+            <form id="logIn" class="input-group" action="ck.php" method="post">
                 <input type="email" name="email_customer_login" class="input-field" placeholder="Enter your Email"
                     required>
-
                 <input type="password" name="password_customer_login" class="input-field"
                     placeholder="Enter your Password" required>
-
-                <input type="checkbox" name="remember_password_customer_login" value="remember-password-customer-login"
+                <input type="checkbox" name="remember-password-customer-login" value="remember-password-customer-login"
                     class="check-box"><span class="log-in">Rmember password</span>
-
                 <!-- <input type="checkbox" id="click" class="cli"> -->
-                <button type="submit" name="btn_login_customer" value="btn-login-customer" class="submit-btn">Log
+                <button type="submit" name="btn-login-customer" value="btn-login-customer" class="submit-btn">Log
                     in</button>
-
             </form>
-
             <!-- <div class="contant">
                 <div class="header">
                     <h2>Thank's</h2>
@@ -74,37 +65,35 @@ if(isset($_POST["btn_signup_customer_signup"])){
                 <label for="click" class="close-btn">close</label>
             </div> -->
             <!-- --------------------- -->
-            <form id="signup" class="input-group" action="" method="post">
+            <form id="signup" class="input-group">
 
-                <input type="text" name="name_customer_signup" class="input-field" placeholder="Enter your Full Name "
+                <input type="text" name="name-customer-signup" class="input-field" placeholder="Enter your Full Name "
                     required>
 
-                <input type="email" name="email_customer_signup" class="input-field" placeholder="Enter your Email"
+                <input type="email" name="email-customer-signup" class="input-field" placeholder="Enter your Email"
                     required>
 
-                <input type="password" name="password_customer_signup" class="input-field"
+                <input type="password" name="password-customer-signup" class="input-field"
                     placeholder="Enter your Password" required>
-                <input type="password" name="repet_password_customer_signup" class="input-field"
+                <input type="password" name="repet-password-customer-signup" class="input-field"
                     placeholder="Repet your Password" required>
 
-                <input type="date" name="age_customer_signup" class="input-field" placeholder="Enter Your Age" required>
+                <input type="date" name="age-customer-signup" class="input-field" placeholder="Enter Your Age" required>
 
                 <!-- <input type="tel" name="phone-customer-signup"  class="input-field" placeholder="Enter your Phone Number (07xxxxxxxx)" required> -->
 
                 <!-- <label>Upload Personal Id image:</label>
                 <input type="file" name="upload-person-id-signup-customer" class="input-field"> -->
 
-                <input type="radio" name="gender_customer_signup" value="male" class="check-box" required><span
+                <input type="radio" name="gender-customer-signup" value="male" class="check-box" required><span
                     class="signUp">male</span>
 
-                <input type="radio" name="gender_customer_signup" value="female" class="check-box" required><span
+                <input type="radio" name="gender-customer-signup" value="female" class="check-box" required><span
                     class="signUp">female</span>
 
-                <button type="submit" name="btn_signup_customer_signup" class="submit-btn">sign
+                <button type="submit" name="btn-signup-customer-signup" class="submit-btn" onclick="compl()">sign
                     Up</button>
-                <?php
-                        echo $stm;
-                ?>
+
             </form>
             <!-- --------------------------- -->
 
@@ -134,9 +123,9 @@ if(isset($_POST["btn_signup_customer_signup"])){
     // z.style.left="110px";
     // // w.style.left="50px";
     // }
-    // function compl() {
-    //     document.location.href = "/include/temp/confirm_email_customer.html";
-    // }
+    function compl() {
+        document.location.href = "/include/temp/confirm_email_customer.html";
+    }
     </script>
 </body>
 

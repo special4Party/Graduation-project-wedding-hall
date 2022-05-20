@@ -60,7 +60,9 @@ if(isset($_POST["btn_signup_customer_signup"])){
                 <!-- <input type="checkbox" id="click" class="cli"> -->
                 <button type="submit" name="btn_login_customer" value="btn-login-customer" class="submit-btn">Log
                     in</button>
-
+                <?php
+                        echo $stm;
+                    ?>
             </form>
 
             <!-- <div class="contant">
@@ -102,9 +104,7 @@ if(isset($_POST["btn_signup_customer_signup"])){
 
                 <button type="submit" name="btn_signup_customer_signup" class="submit-btn">sign
                     Up</button>
-                <?php
-                        echo $stm;
-                ?>
+
             </form>
             <!-- --------------------------- -->
 

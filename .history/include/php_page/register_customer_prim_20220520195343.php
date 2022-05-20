@@ -13,9 +13,9 @@ if(isset($_POST["btn_signup_customer_signup"])){
 
         $queryyy ="INSERT INTO customer_register ( full_name, email, password, gender, birthday_date) 
                 VALUES ( '$name', '$email', '$password', '$gender', '$age');";
-        $stm='';
+
         if ($con->query($queryyy) === TRUE) {
-            $stm= "New record created successfully";
+            echo "New record created successfully";
              
         } else {
             echo "Error: " . $con->error; 
@@ -48,19 +48,18 @@ if(isset($_POST["btn_signup_customer_signup"])){
                 <img src="/images/img/ista-removebg-preview.png" >
             </div> -->
             <form id="logIn" class="input-group" action="" method="post">
-                <input type="email" name="email_customer_login" class="input-field" placeholder="Enter your Email"
+                <input type="email" name="email-customer-login" class="input-field" placeholder="Enter your Email"
                     required>
 
-                <input type="password" name="password_customer_login" class="input-field"
+                <input type="password" name="password-customer-login" class="input-field"
                     placeholder="Enter your Password" required>
 
-                <input type="checkbox" name="remember_password_customer_login" value="remember-password-customer-login"
+                <input type="checkbox" name="remember-password-customer-login" value="remember-password-customer-login"
                     class="check-box"><span class="log-in">Rmember password</span>
 
                 <!-- <input type="checkbox" id="click" class="cli"> -->
-                <button type="submit" name="btn_login_customer" value="btn-login-customer" class="submit-btn">Log
+                <button type="submit" name="btn-login-customer" value="btn-login-customer" class="submit-btn">Log
                     in</button>
-
             </form>
 
             <!-- <div class="contant">
@@ -102,9 +101,7 @@ if(isset($_POST["btn_signup_customer_signup"])){
 
                 <button type="submit" name="btn_signup_customer_signup" class="submit-btn">sign
                     Up</button>
-                <?php
-                        echo $stm;
-                ?>
+
             </form>
             <!-- --------------------------- -->
 
