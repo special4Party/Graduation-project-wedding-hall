@@ -11,12 +11,12 @@ if(isset($_POST["btn_signup_customer_signup"])){
         $email= $_POST["email_customer_signup"];
         $name=$_POST["name_customer_signup"];
 
-        $queryyy ="INSERT INTO customer_register ( full_name, email, password, gender, birthday_date) 
+        $queryyy ="INSERT INTO customer_register (full_name, email, password, gender, birthday_date) 
                 VALUES ( '$name', '$email', '$password', '$gender', '$age');";
-        $stm='';
+       
         if ($con->query($queryyy) === TRUE) {
-            $stm= "New record created successfully";
-             
+            header('Location: http://localhost/wedding_hall_booking_project/include/php_page/customer_profile.php');
+
         } else {
             echo "Error: " . $con->error; 
         }
@@ -31,7 +31,7 @@ if(isset($_POST["btn_signup_customer_signup"])){
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../../layout/css/register-customer.css">
     <!-- <script src="https://kit.fontawesome.com/92219ffc4f.js" crossorigin="anonymous"></script> -->
-    <title>Register and log in owner halls</title>
+    <title>Register and log in customer </title>
 </head>
 
 <body>
@@ -60,8 +60,27 @@ if(isset($_POST["btn_signup_customer_signup"])){
                 <!-- <input type="checkbox" id="click" class="cli"> -->
                 <button type="submit" name="btn_login_customer" value="btn-login-customer" class="submit-btn">Log
                     in</button>
+                <?php
+                require_once("../../conn.php");
+                    if(isset($_POST["btn_login_customer"])){
+                        $password_login= $_POST["password_customer_login"];
+                        $email_login= $_POST["email_customer_login"];
+                        $my_query="select * from customer_register where email='$email_login' and password='$password_login'";
+                        $result=mysqli_query($con,$my_query);
+                        $count=mysqli_num_rows($result);
+                        if($count>0){
+                            echo "success log in customer ";
+                        }else{
+                            echo "falied log in customer";
+                        }
+                    }else{
+                        echo"your email or password is incorrect customer!!";
+                    }
 
+                ?>
             </form>
+
+
 
             <!-- <div class="contant">
                 <div class="header">
@@ -74,7 +93,7 @@ if(isset($_POST["btn_signup_customer_signup"])){
                 <label for="click" class="close-btn">close</label>
             </div> -->
             <!-- --------------------- -->
-            <form id="signup" class="input-group" action="" method="post">
+            <form id="signup" class="input-group" action="../php_page/confirm_email_customer.php" method="post">
 
                 <input type="text" name="name_customer_signup" class="input-field" placeholder="Enter your Full Name "
                     required>
@@ -102,9 +121,7 @@ if(isset($_POST["btn_signup_customer_signup"])){
 
                 <button type="submit" name="btn_signup_customer_signup" class="submit-btn">sign
                     Up</button>
-                <?php
-                        echo $stm;
-                ?>
+
             </form>
             <!-- --------------------------- -->
 
