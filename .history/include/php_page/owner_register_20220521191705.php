@@ -71,7 +71,7 @@ if(isset($_POST["btn_next_owner_signup"])){
                             echo "falied log in owner";
                         }
                     }else{
-                        echo"your email or password is incorrect owner!!";
+                        echo"your email or password is incorrect!!";
                     }
 
                 ?>

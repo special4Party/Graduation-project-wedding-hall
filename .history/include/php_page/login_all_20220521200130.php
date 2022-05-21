@@ -43,11 +43,10 @@
                         $result2=mysqli_query($con,$check2);
                         $count2=mysqli_num_rows($result2);
 
-                        $check3 ="select * from admin_register where email='$email_login_all' and password='$password_login_all'";
-                        $result3=mysqli_query($con,$check3);
-                        $count3=mysqli_num_rows($result3);
-
-                       
+                        // $check3 = "select * from admin_register where where email='$email_login_all' and password='$password_login_all'";
+                        // $result3=mysqli_query($con,$check3);
+                        // $count3=mysqli_num_rows($result3);
+                        
 
 // mysqli_num_rows($check1) == 0 && mysqli_num_rows($check2) == 0 && mysqli_num_rows($check3) == 0
                         if($count > 0){

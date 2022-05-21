@@ -2,20 +2,20 @@
 
 require_once("../../conn.php");
 
-if(isset($_POST["btn_next_owner_signup"])){
+if(isset($_POST["btn_signup_customer_signup"])){
 
-        $gender=$_POST["gender_owner_signup"];
-        $age= $_POST["age_owner_signup"];
-        $password= $_POST["password_owner_signup"];
-        $email= $_POST["email_owner_signup"];
-        $name_owner=$_POST["name_owner_signup"];
-        $phone=$_POST["phone_owner_signup"];
-        $imag_per_id=$_POST["upload_person_id_signup_owner"];
+        $gender=$_POST["gender_customer_signup"];
+        $age= $_POST["age_customer_signup"];
+        $repet= $_POST["repet_password_customer_signup"];
+        $password= $_POST["password_customer_signup"];
+        $email= $_POST["email_customer_signup"];
+        $name=$_POST["name_customer_signup"];
 
-        $queryyy ="INSERT INTO owner_register( full_name, email, password, birthday_date, phone_number, person_id_owner_img, gender, hall_name, liciense_img, max_person_number, license_number) VALUES ('$name', '$email', '$password', '$age','$phone', '$imag_per_id', '$gender');";
-        
+        $queryyy ="INSERT INTO customer_register ( full_name, email, password, gender, birthday_date) 
+                VALUES ( '$name', '$email', '$password', '$gender', '$age');";
+        $stm='';
         if ($con->query($queryyy) === TRUE) {
-           
+            $stm= "New record created successfully";
              
         } else {
             echo "Error: " . $con->error; 
@@ -57,25 +57,6 @@ if(isset($_POST["btn_next_owner_signup"])){
                     class="check-box"><span class="log-in">Rmember password</span>
                 <!-- <input type="checkbox" id="click" class="cli"> -->
                 <button type="submit" name="btn_login_owner" value="btn-login-owner" class="submit-btn">Log in</button>
-                <?php
-                require_once("../../conn.php");
-                    if(isset($_POST["btn_login_owner"])){
-                        $password_login= $_POST["password_owner_login"];
-                        $email_login= $_POST["email_owner_login"];
-                        $my_query="select * from owner_register where email='$email_login' and password='$password_login'";
-                        $result=mysqli_query($con,$my_query);
-                        $count=mysqli_num_rows($result);
-                        if($count>0){
-                            echo "success log in owner ";
-                        }else{
-                            echo "falied log in owner";
-                        }
-                    }else{
-                        echo"your email or password is incorrect owner!!";
-                    }
-
-                ?>
-
             </form>
             <!-- <div class="contant">
                 <div class="header">
@@ -88,7 +69,7 @@ if(isset($_POST["btn_next_owner_signup"])){
                 <label for="click" class="close-btn">close</label>
             </div> -->
             <!-- --------------------- -->
-            <form id="signup" class="input-group" action="../php_page/complet_register_owner.php" method="post">
+            <form id="signup" class="input-group" action="../temp/confirm_email_owner.html" method="post">
 
                 <input type="text" name="name_owner_signup" class="input-field" placeholder="Enter your Full Name "
                     required>
