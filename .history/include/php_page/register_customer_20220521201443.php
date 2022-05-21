@@ -97,6 +97,11 @@ if(isset($_POST["btn_signup_customer_signup"])){
 
                 <input type="date" name="age_customer_signup" class="input-field" placeholder="Enter Your Age" required>
 
+                <!-- <input type="tel" name="phone-customer-signup"  class="input-field" placeholder="Enter your Phone Number (07xxxxxxxx)" required> -->
+
+                <!-- <label>Upload Personal Id image:</label>
+                <input type="file" name="upload-person-id-signup-customer" class="input-field"> -->
+
                 <input type="radio" name="gender_customer_signup" value="male" class="check-box" required><span
                     class="signUp">male</span>
 

@@ -52,19 +52,16 @@
 // mysqli_num_rows($check1) == 0 && mysqli_num_rows($check2) == 0 && mysqli_num_rows($check3) == 0
                         if($count > 0){
                             echo "success owner log in";
-                            header('Location: http://localhost/wedding_hall_booking_project/include/php_page/owner_profile.php');
                         }else if($count2 > 0){
                             echo "success customer log in";
-                            header('Location: http://localhost/wedding_hall_booking_project/include/php_page/customer_profile.php');
                         }else if($count3 > 0){
                             echo "success Admin log in ";
-                            header('Location: http://localhost/wedding_hall_booking_project/include/php_page/Dashboard_admin.php');
                         }else{
-                            echo "sorry is not found your email or password is incorrect !! !!";
+                            echo "sorry is not found !!";
                         }
                        
                     }else{
-                        echo"go back to register some thing is wrong..";
+                        echo"your email or password is incorrect !!";
                     }
                 ?>
 

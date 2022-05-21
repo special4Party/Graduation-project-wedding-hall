@@ -59,11 +59,12 @@
             <div class="main-top">
 
                 <button class="search-icon">Search</button>
-                <input type="text" class="input">
+                <input type="text" class="input" placeholder="search here">
             </div>
             <div class="users">
                 <div class="card">
-                    <img src="../../images/img/png-clipart-youtube-facebook-computer-icons-conversation-social-network-blue-computer-wallpaper-thumbnail-removebg-preview.png" alt="">
+                    <img src="../../images/img/png-clipart-youtube-facebook-computer-icons-conversation-social-network-blue-computer-wallpaper-thumbnail-removebg-preview.png"
+                        alt="">
                     <h4>Requests</h4>
                     <button onclick="btnClicked1()">Go</button>
                 </div>
@@ -157,19 +158,35 @@
                                 <th>ID</th>
                                 <th>NAME</th>
                                 <th>EMAIL</th>
+                                <th>password</th>
+                                <th>gender</th>
                                 <th>Age</th>
-                                <th>Date Joined</th>
                                 <th>delete</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>01</td>
-                                <td>01</td>
-                                <td>01</td>
-                                <td>01</td>
-                                <td>Queens halls</td>
-                                <td><button>delete</button></td>
+                            <?php
+
+                        require_once("../../conn.php");
+
+                        $my_queryyy="select * from customer_register";
+                        $result=mysqli_query($con,$my_queryyy);
+                        //ASSOC  جلب المعلومات وتنظيمها في مصفوفة باستخدام دالة  
+                        $customers=mysqli_fetch_all($result,MYSQLI_ASSOC);
+                        
+                        echo "'<td>'.$customers[0]['Id'].'</td><td>'.$customers[0]['Full_name'].'</td><td>'.$customers[0]['Email'].'</td><td>'.$customers[0]['Password'].'</td><td>'.$customers[0]['Gender'].'</td><td>'.$customers[0]['Birthday_date'].'</td><td>'.";
+                        print_r($customers);
+
+                        
+
+                    ?>
+
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>Queens halls</td>
+                            <td><button>delete</button></td>
                             </tr>
                             <tr>
                                 <td>01</td>
@@ -195,6 +212,7 @@
                                 <td>Queens halls</td>
                                 <td><button>delete</button></td>
                             </tr>
+
                         </tbody>
                     </table>
                 </div>
@@ -205,18 +223,18 @@
 
     <!-- /include/temp/halls.html -->
     <script>
-        function btnClicked1() {
-            document.location.href = "../../include/temp/requests_admin.html";
-        }
-        // function btnClicked2(){
-        //     document.location.href="#owner-list";
-        // }
-        // function btnClicked3(){
-        //     document.location.href="#customer-list";
-        // }
-        function btnClicked4() {
-            document.location.href = "../../include/temp/quistions_admin.html";
-        }
+    function btnClicked1() {
+        document.location.href = "../../include/temp/requests_admin.html";
+    }
+    // function btnClicked2(){
+    //     document.location.href="#owner-list";
+    // }
+    // function btnClicked3(){
+    //     document.location.href="#customer-list";
+    // }
+    function btnClicked4() {
+        document.location.href = "../../include/temp/quistions_admin.html";
+    }
     </script>
     <script src="../../layout/js/dashboard.js"></script>
 </body>

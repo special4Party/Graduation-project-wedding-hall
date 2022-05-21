@@ -78,11 +78,11 @@ a {
 .search-icon {
     width: 5%;
     height: 55px;
-    /* background-image: url("../../images/img/search.png");
-    background-position: center; */
+    background-image: url(../../images/img/search.png);
+    background-position: center;
     background-color: var(--second-color);
     background-size: 50px;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     border: 1px solid var(--black-light-color);
     border-radius: 30px;
     float: right;

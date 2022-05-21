@@ -1,3 +1,12 @@
+<?php
+
+require_once("../../conn.php");
+
+$my_queryyy="select * from customer_register";
+$result=mysqli_query($con,$my_queryyy);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,7 +72,8 @@
             </div>
             <div class="users">
                 <div class="card">
-                    <img src="../../images/img/png-clipart-youtube-facebook-computer-icons-conversation-social-network-blue-computer-wallpaper-thumbnail-removebg-preview.png" alt="">
+                    <img src="../../images/img/png-clipart-youtube-facebook-computer-icons-conversation-social-network-blue-computer-wallpaper-thumbnail-removebg-preview.png"
+                        alt="">
                     <h4>Requests</h4>
                     <button onclick="btnClicked1()">Go</button>
                 </div>
@@ -205,18 +215,18 @@
 
     <!-- /include/temp/halls.html -->
     <script>
-        function btnClicked1() {
-            document.location.href = "../../include/temp/requests_admin.html";
-        }
-        // function btnClicked2(){
-        //     document.location.href="#owner-list";
-        // }
-        // function btnClicked3(){
-        //     document.location.href="#customer-list";
-        // }
-        function btnClicked4() {
-            document.location.href = "../../include/temp/quistions_admin.html";
-        }
+    function btnClicked1() {
+        document.location.href = "../../include/temp/requests_admin.html";
+    }
+    // function btnClicked2(){
+    //     document.location.href="#owner-list";
+    // }
+    // function btnClicked3(){
+    //     document.location.href="#customer-list";
+    // }
+    function btnClicked4() {
+        document.location.href = "../../include/temp/quistions_admin.html";
+    }
     </script>
     <script src="../../layout/js/dashboard.js"></script>
 </body>
