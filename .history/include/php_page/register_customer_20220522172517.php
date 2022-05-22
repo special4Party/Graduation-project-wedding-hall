@@ -90,6 +90,7 @@ if(isset($_POST["btn_signup_customer_signup"])){
                     }else{
                         echo"your email or password is incorrect customer!!";
                     }
+
                 ?>
             </form>
 
@@ -120,8 +121,8 @@ if(isset($_POST["btn_signup_customer_signup"])){
                 <button type="submit" name="btn_signup_customer_signup" class="submit-btn">sign
                     Up</button>
                 <?php
-                    echo $stm1.$stm2.$stm3;
-                ?>
+
+                    ?>
             </form>
             <!-- --------------------------- -->
 

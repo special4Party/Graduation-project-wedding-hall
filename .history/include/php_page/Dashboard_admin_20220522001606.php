@@ -175,11 +175,9 @@
                         $customers=mysqli_fetch_all($result,MYSQLI_ASSOC);
                         
                         echo'<tr><td>'.$customers[0]['id'].'</td><td>'.$customers[0]['full_name'].'</td><td>'.$customers[0]['email'].'</td><td>'.$customers[0]['password'].'</td><td>'.$customers[0]['gender'].'</td><td>'.$customers[0]['birthday_date'].'</td><td><button>delete</button></td></tr>';
-                        // print_r($customers);
-                        //------------------------
-                        //------------------------
+                        print_r($customers);
                         echo'<tr><td>'.$customers[1]['id'].'</td><td>'.$customers[1]['full_name'].'</td><td>'.$customers[1]['email'].'</td><td>'.$customers[1]['password'].'</td><td>'.$customers[1]['gender'].'</td><td>'.$customers[1]['birthday_date'].'</td><td><button>delete</button></td></tr>';
-                        // print_r($customers);
+                        print_r($customers);
 
                     ?>
                             <!-- <tr>

@@ -3,35 +3,26 @@
 require_once("../../conn.php");
 
 if(isset($_POST["btn_signup_customer_signup"])){
-
-        $gender=$_POST["gender_customer_signup"];
-        $age= $_POST["age_customer_signup"];
-        $repet= $_POST["repet_password_customer_signup"];
-        $password= $_POST["password_customer_signup"];
-        $email= $_POST["email_customer_signup"];
-        $name=$_POST["name_customer_signup"];
-
         
+    if($_POST["repet_password_customer_signup"]=== $_POST["password_customer_signup"] ){
+            $gender=$_POST["gender_customer_signup"];
+            $age= $_POST["age_customer_signup"];
+            $repet= $_POST["repet_password_customer_signup"];
+            $password= $_POST["password_customer_signup"];
+            $email= $_POST["email_customer_signup"];
+            $name=$_POST["name_customer_signup"];
 
-    $stm1='';
-    $stm2='';
-    $stm3='';
-    if(empty($password)){
-        $stm1= "password is required"; 
-    }else if(empty($repet)){
-        $stm2= "confirm password is required"; 
-    }else if($password != $repet){
-        $stm3= "password is not same ";
+            $queryyy ="INSERT INTO customer_register (full_name, email, password, gender, birthday_date) 
+                    VALUES ( '$name', '$email', '$password', '$gender', '$age');";
+        
+            if ($con->query($queryyy) === TRUE) {
+                header('Location: http://localhost/wedding_hall_booking_project/include/php_page/customer_profile.php');
+
+            } else {
+                echo "Error: " . $con->error; 
+            }
     }else{
-        $queryyy ="INSERT INTO customer_register (full_name, email, password, gender, birthday_date) 
-        VALUES ( '$name', '$email', '$password', '$gender', '$age');";
-
-        if ($con->query($queryyy) === TRUE) {
-            header('Location: http://localhost/wedding_hall_booking_project/include/php_page/customer_profile.php');
-
-        } else {
-            echo "Error: " . $con->error; 
-        }
+        echo ""; 
     }
         
 }
@@ -90,13 +81,13 @@ if(isset($_POST["btn_signup_customer_signup"])){
                     }else{
                         echo"your email or password is incorrect customer!!";
                     }
+
                 ?>
             </form>
 
 
             <!-- --------------------- -->
-            <!-- ../php_page/confirm_email_customer.php -->
-            <form id="signup" class="input-group" action="" method="post">
+            <form id="signup" class="input-group" action="../php_page/confirm_email_customer.php" method="post">
 
                 <input type="text" name="name_customer_signup" class="input-field" placeholder="Enter your Full Name "
                     required>
@@ -119,9 +110,7 @@ if(isset($_POST["btn_signup_customer_signup"])){
 
                 <button type="submit" name="btn_signup_customer_signup" class="submit-btn">sign
                     Up</button>
-                <?php
-                    echo $stm1.$stm2.$stm3;
-                ?>
+
             </form>
             <!-- --------------------------- -->
 

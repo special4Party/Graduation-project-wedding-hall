@@ -13,15 +13,13 @@ if(isset($_POST["btn_signup_customer_signup"])){
 
         
 
-    $stm1='';
-    $stm2='';
-    $stm3='';
+
     if(empty($password)){
-        $stm1= "password is required"; 
+        echo "password is required"; 
     }else if(empty($repet)){
-        $stm2= "confirm password is required"; 
+        echo "confirm password is required"; 
     }else if($password != $repet){
-        $stm3= "password is not same ";
+        echo "password is not same ";
     }else{
         $queryyy ="INSERT INTO customer_register (full_name, email, password, gender, birthday_date) 
         VALUES ( '$name', '$email', '$password', '$gender', '$age');";
@@ -90,13 +88,13 @@ if(isset($_POST["btn_signup_customer_signup"])){
                     }else{
                         echo"your email or password is incorrect customer!!";
                     }
+
                 ?>
             </form>
 
 
             <!-- --------------------- -->
-            <!-- ../php_page/confirm_email_customer.php -->
-            <form id="signup" class="input-group" action="" method="post">
+            <form id="signup" class="input-group" action="../php_page/confirm_email_customer.php" method="post">
 
                 <input type="text" name="name_customer_signup" class="input-field" placeholder="Enter your Full Name "
                     required>
@@ -119,9 +117,7 @@ if(isset($_POST["btn_signup_customer_signup"])){
 
                 <button type="submit" name="btn_signup_customer_signup" class="submit-btn">sign
                     Up</button>
-                <?php
-                    echo $stm1.$stm2.$stm3;
-                ?>
+
             </form>
             <!-- --------------------------- -->
 

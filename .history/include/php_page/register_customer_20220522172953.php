@@ -90,6 +90,7 @@ if(isset($_POST["btn_signup_customer_signup"])){
                     }else{
                         echo"your email or password is incorrect customer!!";
                     }
+                    mysqli_close($con);
                 ?>
             </form>
 
