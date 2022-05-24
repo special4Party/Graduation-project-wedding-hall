@@ -93,17 +93,19 @@
                         $gender_signUp= $_POST["gender_customer_signup"];
                         //
                         //insert into 'customer_register' ( 'full_name', 'email', 'password', 'gender', 'birthday_date') VALUES ('rama', 'rama@roro.ro', '232323', 'female', '2022-05-17');
-                       
-                        if($password_signUp===$repet_password_signUp){
-                            
-                            $my_query_signUp="INSERT INTO  customer_register (full_name, email, password, gender, birthday_date) VALUES ('$full_name', '$email_signUp', '$password_signUp', '$gender_signUp', '$age_signUp');";
-                            
-                            if($con->query($my_query_signUp) === TRUE){
-                                echo"success register new customer";
-                            }
-                        }else{
-                             echo"your password its not same!!";
+                        if ($con->query($queryyy) === TRUE) {
+           
+             
+                        } else {
+                            echo "Error: " . $con->error; 
                         }
+                        if($password_signUp===$repet_password_signUp){
+                            $my_query_signUp="INSERT INTO  customer_register (full_name, email, password, gender, birthday_date) VALUES ('$full_name', '$email_signUp', '$password_signUp', '$gender_signUp', '$age_signUp');";
+                        }else{
+                            echo"your password its not same!!";
+                        }
+                       
+
                     }else{
                         echo"your email or password is incorrect customer!!";
                     }

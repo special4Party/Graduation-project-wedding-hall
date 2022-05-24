@@ -97,13 +97,14 @@
                         if($password_signUp===$repet_password_signUp){
                             
                             $my_query_signUp="INSERT INTO  customer_register (full_name, email, password, gender, birthday_date) VALUES ('$full_name', '$email_signUp', '$password_signUp', '$gender_signUp', '$age_signUp');";
-                            
-                            if($con->query($my_query_signUp) === TRUE){
-                                echo"success register new customer";
-                            }
+                           
+                            echo"success register new customer";
                         }else{
-                             echo"your password its not same!!";
+                            echo"your password its not same!!";
                         }
+                        
+                       
+
                     }else{
                         echo"your email or password is incorrect customer!!";
                     }

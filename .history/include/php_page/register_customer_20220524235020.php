@@ -100,9 +100,11 @@
                             
                             if($con->query($my_query_signUp) === TRUE){
                                 echo"success register new customer";
+                            }else{
+                                echo"your password its not same!!";
                             }
                         }else{
-                             echo"your password its not same!!";
+                            echo"Error: " . $con->error;
                         }
                     }else{
                         echo"your email or password is incorrect customer!!";

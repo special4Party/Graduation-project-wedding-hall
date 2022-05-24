@@ -1,4 +1,41 @@
-<!--  -->
+<?php
+
+require_once("../../conn.php");
+
+if(isset($_POST["btn_signup_customer_signup"])){
+
+        $gender=$_POST["gender_customer_signup"];
+        $age= $_POST["age_customer_signup"];
+        $repet= $_POST["repet_password_customer_signup"];
+        $password= $_POST["password_customer_signup"];
+        $email= $_POST["email_customer_signup"];
+        $name=$_POST["name_customer_signup"];
+
+        
+
+    $stm1='';
+    $stm2='';
+    $stm3='';
+    if(empty($password)){
+        $stm1= "password is required"; 
+    }else if(empty($repet)){
+        $stm2= "confirm password is required"; 
+    }else if($password != $repet){
+        $stm3= "password is not same ";
+    }else{
+        $queryyy ="INSERT INTO customer_register (full_name, email, password, gender, birthday_date) 
+        VALUES ( '$name', '$email', '$password', '$gender', '$age');";
+
+        if ($con->query($queryyy) === TRUE) {
+            header('Location: http://localhost/wedding_hall_booking_project/include/php_page/customer_profile.php');
+
+        } else {
+            echo "Error: " . $con->error; 
+        }
+    }
+        
+}
+?>
 
 
 <!DOCTYPE html>
@@ -89,25 +126,26 @@
                         $repet_password_signUp= $_POST["repet_password_customer_signup"];
                         $email_signUp= $_POST["email_customer_signup"];
                         $full_name= $_POST["name_customer_signup"];
-                        $age_signUp= $_POST["age_customer_signup"];
+                        $age__signUp= $_POST["age_customer_signup"];
                         $gender_signUp= $_POST["gender_customer_signup"];
                         //
                         //insert into 'customer_register' ( 'full_name', 'email', 'password', 'gender', 'birthday_date') VALUES ('rama', 'rama@roro.ro', '232323', 'female', '2022-05-17');
-                       
-                        if($password_signUp===$repet_password_signUp){
-                            
-                            $my_query_signUp="INSERT INTO  customer_register (full_name, email, password, gender, birthday_date) VALUES ('$full_name', '$email_signUp', '$password_signUp', '$gender_signUp', '$age_signUp');";
-                            
-                            if($con->query($my_query_signUp) === TRUE){
-                                echo"success register new customer";
-                            }
+                        
+                        $my_query_signUp="insert into 'customer_register' ( 'full_name', 'email', 'password', 'gender', 'birthday_date') VALUES ('$full_name', '$email_signUp', '$password_signUp', '$gender_signUp', '$age__signUp');";
+
+                        $result_signUp=mysqli_query($con,$my_query_signUp);
+                        $count=mysqli_num_rows($result_signUp);
+                        if($count>0){
+                            echo "success add new row to customer register ";
                         }else{
-                             echo"your password its not same!!";
+                            echo "falied register customer";
                         }
                     }else{
                         echo"your email or password is incorrect customer!!";
                     }
 
+
+                    echo $stm1.$stm2.$stm3;
                 ?>
             </form>
             <!-- --------------------------- -->

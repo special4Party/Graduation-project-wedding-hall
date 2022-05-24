@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/92219ffc4f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/layout/css/quistio_admin.css">
+    <title>Quistion Admin Page</title>
+</head>
+
+<body>
+    <div class="table">
+        <div class="table_header">
+            <p>Inquiries and Complaints</p>
+        </div>
+        <div class="table_section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>phone</th>
+                        <th>Note</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>lisa</td>
+                        <td>raup@gmail.com</td>
+                        <td>+962789909898</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illum corndae minima vel, ipsum reprehenderit repellat pariatur obcaecati adipisci eos!</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>maher</td>
+                        <td>guta@gmail.com</td>
+                        <td>+962789909898</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illum s!</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>ahmed</td>
+                        <td>igupt@gmail.com</td>
+                        <td>+962789909898</td>
+                        <td>Lohenderit repellat pariatur obcaecati adipisci eos!</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>roaa</td>
+                        <td>akhigu@gmail.com</td>
+                        <td>+962789909898</td>
+                        <td>Lorem ipsum dolor sit amet consinus ipsum doloremque officiis eius quaerat voluandae minima vel, ipsum reprehenderit repellat ci eos!</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>mohammad</td>
+                        <td>rgupta@gmail.com</td>
+                        <td>+962789909898</td>
+                        <td>Lo repellendus repudiandae minima vel, ipsum reprehenderit repellat pariatur obcaecati adipisci eos!</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Camera</td>
+                        <td>rakhigupta@gmail.com</td>
+                        <td>+962789909898</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illum corruecati adipisci eos!</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Camera</td>
+                        <td>rakhigupta@gmail.com</td>
+                        <td>+962789909898</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illum corruecati adipisci eos!</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Camera</td>
+                        <td>rakhigupta@gmail.com</td>
+                        <td>+962789909898</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illum corruecati adipisci eos!</td>
+
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Camera</td>
+                        <td>rakhigupta@gmail.com</td>
+                        <td>+962789909898</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illum corruecati adipisci eos!</td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
