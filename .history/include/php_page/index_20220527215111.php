@@ -352,9 +352,8 @@
 			$name= $_POST["name_person"];
 			$note= $_POST["note_person"];
 			$tel= $_POST["telphone"];
-            $st='  ';
 		}
-       
+        $st='  ';
 		$my_query_quistion="INSERT INTO quistion_to_admin (email, phone, note, name) VALUES ('$email', '$tel', '$note', '$name');";
 
 		

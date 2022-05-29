@@ -353,7 +353,9 @@
 			$note= $_POST["note_person"];
 			$tel= $_POST["telphone"];
             $st='  ';
-		}
+		}else{
+            echo '<h3>'.$st.'</h3>';
+        }
        
 		$my_query_quistion="INSERT INTO quistion_to_admin (email, phone, note, name) VALUES ('$email', '$tel', '$note', '$name');";
 
@@ -363,7 +365,7 @@
 		}else{
 			$st='field send your quistion!!';
 		}
-			echo '<h3>'.$st.'</h3>';
+			
 	?>
             </form>
         </div>

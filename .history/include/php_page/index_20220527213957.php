@@ -332,7 +332,24 @@
                     <strong>Phone : </strong>+9700473889
                 </p>
             </div>
+            <?php
+			
+				require_once("../../conn.php");
+				if(isset($_POST["quistion_button_admin"])){
+					$email= $_POST["email_person"];
+                    $name= $_POST["name_person"];
+					$note= $_POST["note_person"];
+					$tel= $_POST["telphone"];
+				}
+				$my_query_quistion="INSERT INTO quistion_to_admin (email, phone, note, name) VALUES ('$email', '$tel', '$note', '$name');";
+					$st='';
+				if($con->query($my_query_quistion) === TRUE){
+					$st='your message was send thank you..';
+				}else{
+					$st='field send your quistion!!';
+				}
 
+			?>
             <form class="form" action="" method="post">
                 <label>Name : </label>
                 <input type="text" name="name_person" required>
@@ -344,27 +361,6 @@
                 <!-- <input type="text" name="note" required> -->
                 <textarea name="note_person"></textarea>
                 <input type="submit" value=" Submit " name="quistion_button_admin">
-                <?php
-		
-		require_once("../../conn.php");
-		if(isset($_POST["quistion_button_admin"])){
-			$email= $_POST["email_person"];
-			$name= $_POST["name_person"];
-			$note= $_POST["note_person"];
-			$tel= $_POST["telphone"];
-            $st='  ';
-		}
-       
-		$my_query_quistion="INSERT INTO quistion_to_admin (email, phone, note, name) VALUES ('$email', '$tel', '$note', '$name');";
-
-		
-		if($con->query($my_query_quistion) === TRUE){
-			$st='your message was send thank you..';
-		}else{
-			$st='field send your quistion!!';
-		}
-			echo '<h3>'.$st.'</h3>';
-	?>
             </form>
         </div>
     </div>
