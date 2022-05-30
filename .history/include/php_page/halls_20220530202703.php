@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/layout/css/halls.css">
-    <link rel="stylesheet" href="/layout/css/normalize.css">
-    <link rel="stylesheet" href="./layout/css/normalize.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../layout/css/halls.css">
+    <link rel="stylesheet" href="../../layout/css/normalize.css">
+    <link rel="stylesheet" href="../../layout/css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
     <title>Wedding-Hall Page</title>
 </head>
 
@@ -36,7 +37,8 @@
             <div class="row-1">
                 <div class="colum-2">
                     <h1>Go to see<br> wedding-halls !</h1>
-                    <p>success isn't always about greatness, it's about consistency.<br> consistent hard work gains success.greatness will come.</p>
+                    <p>success isn't always about greatness, it's about consistency.<br> consistent hard work gains
+                        success.greatness will come.</p>
                     <a href="#galary" class="btn">Book Now &#8594</a>
                     <!--&#8594 the Arrow -->
                 </div>
@@ -68,9 +70,9 @@
         <h2 class="title" id="galary">Halls Galary</h2>
         <div class="input-field">
             <i class="search">
-            <button class="search-icon"></button>
-            <input type="text" placeholder="search for any wedding hall or location">
-        </i>
+                <button class="search-icon"></button>
+                <input type="text" placeholder="search for any wedding hall or location">
+            </i>
         </div>
 
         <div class="row">
@@ -114,7 +116,7 @@
 
         <div class="preview" data-target="p-1">
             <i class="fas fa-times"></i>
-            <!-- <img src="/images/halls/5.jpg" alt=""> -->
+            <img src="/images/halls/5.jpg" alt="">
             <h3>قاعة قصر الذكريات</h3>
             <p>07 7581 6070</p>
             <div class="city">معان</div>

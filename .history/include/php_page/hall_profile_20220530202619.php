@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/layout/css/hall_profile.css">
-    <title>Halls owner Profile Page</title>
+    <link rel="stylesheet" href="../../layout/css/hall_profile.css">
+    <title>Halls Profile Page</title>
 </head>
 
 <body>
@@ -12,7 +12,7 @@
         <section class="glass">
             <div class="dashboard">
                 <div class="user">
-                    <img src="/images/halls/1.png" alt="" />
+                    <img src="../../images/halls/1.png" alt="" />
                     <h2>Queen Hall</h2>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                                     <h3>Music</h3>
                                 </div>
                             </div>
-
+                            <button class="btn" onclick="goto()">Book now</button>
                         </div>
                     </div>
                 </div>
@@ -72,12 +72,12 @@
         <section class="glass">
             <div class="games">
                 <div class="our-work">
-                    <div><img src="/images/halls3/1.jpg" alt="test" width="200" height="200"></div>
-                    <div><img src="/images/halls3/2.jpg" alt="test" width="200" height="200"></div>
-                    <div><img src="/images/halls3/3.jpg" alt="test" width="200" height="200"></div>
-                    <div><img src="/images/halls3/4.jpg" alt="test" width="200" height="200"></div>
-                    <div><img src="/images/halls3/5.jpg" alt="test" width="200" height="200"></div>
-                    <div><img src="/images/halls2/6.jpg" alt="test" width="200" height="200"></div>
+                    <div><img src="../../images/halls3/1.jpg" alt="test" width="200" height="200"></div>
+                    <div><img src="../../images/halls3/2.jpg" alt="test" width="200" height="200"></div>
+                    <div><img src="../../images/halls3/3.jpg" alt="test" width="200" height="200"></div>
+                    <div><img src="../../images/halls3/4.jpg" alt="test" width="200" height="200"></div>
+                    <div><img src="../../images/halls3/5.jpg" alt="test" width="200" height="200"></div>
+                    <div><img src="../../images/halls2/6.jpg" alt="test" width="200" height="200"></div>
                 </div>
             </div>
         </section>
@@ -86,7 +86,11 @@
     <div class="circle1"></div>
     <div class="circle2"></div>
     <div class="circle3"></div>
-
+    <script>
+    function goto() {
+        document.location.href = "../../include/php_page/booking.php";
+    }
+    </script>
 </body>
 
 </html>
