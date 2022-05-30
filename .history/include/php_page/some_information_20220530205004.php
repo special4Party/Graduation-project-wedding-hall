@@ -46,12 +46,6 @@
                 <p>
                     The courtship period is one of the most beautiful moments that two people may live, especially if
                     neither of them knew the other before the engagement. This step is done.
-                    This type of party is referred to in great numbers to attend, in addition to those events that need
-                    to attend and arrange events, as well as for the United Nations, as well as events and their
-                    arrangement, as well as people who wish to attend them.
-                    These parties can be a large volume of people who have worked on their events, their parties, which
-                    must be done, a special party itinerary, so that you are accessible and organized and the party can
-                    become special.
 
                     Engagement takes place through several stages that the fiancé and his relatives go through on the
                     one hand, and the fiancée and her family on the other hand, which are as follows:

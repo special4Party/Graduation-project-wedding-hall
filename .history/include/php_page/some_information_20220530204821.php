@@ -46,12 +46,6 @@
                 <p>
                     The courtship period is one of the most beautiful moments that two people may live, especially if
                     neither of them knew the other before the engagement. This step is done.
-                    This type of party is referred to in great numbers to attend, in addition to those events that need
-                    to attend and arrange events, as well as for the United Nations, as well as events and their
-                    arrangement, as well as people who wish to attend them.
-                    These parties can be a large volume of people who have worked on their events, their parties, which
-                    must be done, a special party itinerary, so that you are accessible and organized and the party can
-                    become special.
 
                     Engagement takes place through several stages that the fiancé and his relatives go through on the
                     one hand, and the fiancée and her family on the other hand, which are as follows:
@@ -80,22 +74,22 @@
             <div class="content-container" id="Party">
                 <h5>Normal Party</h5>
                 <p>
-                    This type of party is attended by a small number of people invited, in addition to the fact that
-                    these parties do not need the same amount of planning as large-sized parties, but despite that they
-                    definitely need to follow and take care of the party system by people their supervisors.
-
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+                    (injected humour and the like).
                 </p>
                 <p>
-                    Small-sized parties are among the most highly private parties, and for this reason, great care must
-                    be taken that the list of people who have been invited is small in size, and it must also be
-                    confirmed by the people supervising the preparation and organization of the party. They must also
-                    make sure that the party is not entered by strangers who are not invited, in order to ensure the
-                    regularity of the party and the lack of space constraints.
-
-                    Training on how to present the ceremony is one of the most important things about the ceremony,
-                    especially in large-sized parties because in reality many people will go to it. For this reason,
-                    attention should be paid to many training things, including: making sure that the private place
-                    Dance enough, take care that the party lighting is regular.
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+                    (injected humour and the like).
                 </p>
             </div>
         </div>
