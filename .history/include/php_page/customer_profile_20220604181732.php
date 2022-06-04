@@ -60,12 +60,12 @@ require_once("../../conn.php");
                 <img src="../../images/img/a10.jpg">
             </div>
         </div>
-        <a href=""></a>
+
     </section>
     <!-- ----------script-------------- -->
     <script>
     function gotopage1() {
-        document.location.href = "../php_page/view_booking_customer.php";
+        document.location.href = "view_booking_customer.php";
     }
     // function gotopage2(){
     //     document.location.href="/include/temp/request_owner.html";

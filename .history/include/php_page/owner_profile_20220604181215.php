@@ -1,17 +1,10 @@
-<?php
-
-require_once("../../conn.php");
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../layout/css/customer_profile.css">
-    <title>Customer Profile Page </title>
+    <link rel="stylesheet" href="../../layout/css/owner_profile.css">
+    <title>Profile test</title>
 </head>
 
 <body>
@@ -20,12 +13,12 @@ require_once("../../conn.php");
             <header>
                 <a href="#" class="logo">Special <span>Party</span></a>
                 <ul>
-                    <li><a href="../../index.php" class="active">Home</a></li>
-                    <li><a href="../../index.php#contact-footer">Contact us</a></li>
+                    <li><a href="../../index.html" class="active">Home</a></li>
+                    <li><a href="../../index.html#contact-footer">Contact us</a></li>
                 </ul>
             </header>
             <div class="content">
-                <h2>Hayat Malek</h2>
+                <h2>Queens Hall</h2>
                 <!-- table info here -->
                 <!--
                      th:table header cell
@@ -35,20 +28,23 @@ require_once("../../conn.php");
                 <table>
                     <thead>
                         <tr>
+                            <th>Name</th>
                             <th>Email</th>
-                            <th>Age</th>
-                            <th>Gender</th>
+                            <th>phone</th>
+                            <th>Location</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
+                            <td>Asmaa</td>
                             <td>assd@gmail.com</td>
-                            <td>25</td>
-                            <td>Female</td>
+                            <td>009639987876</td>
+                            <td>Amman- st.1 - num:30A</td>
                         </tr>
                         <tr>
                             <td colspan="4">
-                                <button onclick="gotopage1()">View Your Booking Halls</button>
+                                <button onclick="gotopage1()">View Your Hall</button>
+                                <button onclick="gotopage2()">View Request Booking</button>
                             </td>
                         </tr>
                     </tbody>
@@ -56,20 +52,21 @@ require_once("../../conn.php");
                 <!-- <a href="#">More..</a> -->
             </div>
             <div class="imgbox">
-                <!-- -----customer photo ------ -->
-                <img src="../../images/img/a10.jpg">
+                <!-- -----hall image----- -->
+                <img src="../../images/img/1.jpg">
             </div>
         </div>
-        <a href=""></a>
+
     </section>
     <!-- ----------script-------------- -->
     <script>
     function gotopage1() {
-        document.location.href = "../php_page/view_booking_customer.php";
+        document.location.href = "../../include/php_page/hall_profile.php";
     }
-    // function gotopage2(){
-    //     document.location.href="/include/temp/request_owner.html";
-    // }
+
+    function gotopage2() {
+        document.location.href = "../../include/php_page/request_owner.php";
+    }
     </script>
 </body>
 

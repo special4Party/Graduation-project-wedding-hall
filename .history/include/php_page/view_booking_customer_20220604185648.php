@@ -42,10 +42,8 @@
                         </div>
                         <div class="card-body">
                             <br>
-                            <h5 class="card-title pt-3 text-center">Diteals</h5>
-                            <br>
 
-                            <table class="tabbb1">
+                            <table class="tabbb">
                                 <tr>
 
                                     <th>Cake Layer</th>
@@ -75,8 +73,6 @@
                             <p class="p">3</p>
                         </div>
                         <div class="card-body">
-                            <br>
-                            <h5 class="card-title pt-3 text-center">Date party</h5>
                             <br>
                             <table class="tabbb">
                                 <tr>

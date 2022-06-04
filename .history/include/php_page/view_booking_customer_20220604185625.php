@@ -42,10 +42,15 @@
                         </div>
                         <div class="card-body">
                             <br>
-                            <h5 class="card-title pt-3 text-center">Diteals</h5>
-                            <br>
 
-                            <table class="tabbb1">
+                            <h5 class="card-title pt-3 text-center">Service Info</h5><br>
+                            <label>Cake Layer: </label><span class="span">4</span>
+                            <label>Drinks:</label><span> water & soft drink</span>
+                            <label>Music:</label><span class="span">Arabic</span>
+                            <label>Vedio/Photo:</label><span class="span">No</span>
+                            <!-- <p class="card-text">hello</p>
+                            <i class="fas fa-lock svg-icon green fa-2x"></i> -->
+                            <table class="tabbb">
                                 <tr>
 
                                     <th>Cake Layer</th>
@@ -57,8 +62,8 @@
 
                                     <td>4</td>
                                     <td>water / soft drink</td>
-                                    <td>Arabic</td>
-                                    <td>No</td>
+                                    <td>16</td>
+                                    <td>16</td>
                                 </tr>
 
                             </table>
@@ -75,8 +80,6 @@
                             <p class="p">3</p>
                         </div>
                         <div class="card-body">
-                            <br>
-                            <h5 class="card-title pt-3 text-center">Date party</h5>
                             <br>
                             <table class="tabbb">
                                 <tr>

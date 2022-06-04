@@ -42,27 +42,13 @@
                         </div>
                         <div class="card-body">
                             <br>
-                            <h5 class="card-title pt-3 text-center">Diteals</h5>
-                            <br>
-
-                            <table class="tabbb1">
-                                <tr>
-
-                                    <th>Cake Layer</th>
-                                    <th>Drinks</th>
-                                    <th>Music</th>
-                                    <th>Vedio/Photo</th>
-                                </tr>
-                                <tr>
-
-                                    <td>4</td>
-                                    <td>water / soft drink</td>
-                                    <td>Arabic</td>
-                                    <td>No</td>
-                                </tr>
-
-                            </table>
-
+                            <h5 class="card-title pt-3 text-center">Service Info</h5><br>
+                            <label>Cake Layer: </label><span class="span">4</span>
+                            <label>Drinks:</label><span> water & soft drink</span>
+                            <label>Music:</label><span class="span">Arabic</span>
+                            <label>Vedio/Photo:</label><span class="span">No</span>
+                            <!-- <p class="card-text">hello</p>
+                            <i class="fas fa-lock svg-icon green fa-2x"></i> -->
                         </div>
                     </div>
                 </div>
@@ -76,24 +62,32 @@
                         </div>
                         <div class="card-body">
                             <br>
-                            <h5 class="card-title pt-3 text-center">Date party</h5>
+                            <h5 class="card-title pt-3 text-center">Date Party</h5><br>
+                            <label>Day: </label><span class="span-date">4</span>
+                            <label>Month:</label><span class="span-date">Jun</span>
+                            <label>Year: </label><span class="span-date">2024</span>
+                            <label>Time:</label><span> 12:00 pm</span>
+                            <!-- <p class="card-text">Lorem</p>
+                            <i class="fas fa-user-check svg-icon pink fa-2x"></i> -->
+                        </div>
+                        <div class="card-body">
                             <br>
-                            <table class="tabbb">
+                            <table>
                                 <tr>
-
-                                    <th>Day</th>
-                                    <th>Month</th>
-                                    <th>Year</th>
-                                    <th>Time</th>
+                                    <th>No.</th>
+                                    <th>Name</th>
+                                    <th>Age</th>
                                 </tr>
                                 <tr>
-
-                                    <td>Mon</td>
-                                    <td>16</td>
-                                    <td>16</td>
+                                    <td>1</td>
+                                    <td>Peter Parker</td>
                                     <td>16</td>
                                 </tr>
-
+                                <tr>
+                                    <td>2</td>
+                                    <td>Clark Kent</td>
+                                    <td>34</td>
+                                </tr>
                             </table>
                         </div>
                     </div>

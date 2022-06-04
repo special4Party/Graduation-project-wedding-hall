@@ -142,23 +142,6 @@ p {
     margin: 120px auto;
 }
 
-.tabbb1 {
-    border: solid 1px rgb(43, 42, 42);
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.tabbb1 tr th {
-    border: 1px solid rgb(66, 65, 65);
-    padding: 3px;
-}
-
-.tabbb1 tr td {
-    padding: 3px;
-    border: 1px solid rgb(66, 65, 65);
-}
-
 .tabbb {
     margin: 0 10px;
     border: solid 1px rgb(43, 42, 42);
@@ -168,7 +151,7 @@ p {
 
 .tabbb tr th {
     border: 1px solid rgb(66, 65, 65);
-    padding: 10px;
+    padding: 8px;
 }
 
 .tabbb tr td {
